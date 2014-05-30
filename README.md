@@ -1,0 +1,4 @@
+LPPython
+========
+
+Exercicis de Python
