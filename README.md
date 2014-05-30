@@ -1,4 +1,4 @@
-LPPython
+Python
 ========
 
-Exercicis de Python
+Exercicis de Python pera l'assignatura de LP
