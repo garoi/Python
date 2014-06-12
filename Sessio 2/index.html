@@ -1,0 +1,4643 @@
+<!DOCTYPE HTML SYSTEM>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Window-target" content="_top" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>BICING</title>
+ <script type="text/javascript">
+function initialize() {
+var mapOptions = {
+          zoom: 14,
+          center: new google.maps.LatLng(41.3933466, 2.147914),
+          mapTypeControlOptions: {
+            mapTypeIds: [google.maps.MapTypeId.ROADMAP, MYMAP]
+          },
+          mapTypeId: MYMAP
+        };
+        var map = new google.maps.Map(document.getElementById(map-canvas), mapOptions);
+
+var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+        map.mapTypes.set(MYMAP, customMapType);
+
+        setMarkers(map);
+      }
+      function setMarkers(map) {
+var infowindow1 = new google.maps.InfoWindow({
+content: contentString1
+});
+var myLatLng1 = new google.maps.LatLng( 41.3979520 2.18004200 );
+var marker1 = new google.maps.Marker({
+position: myLatLng1 ,
+map: map,
+title:1
+});
+google.maps.event.addListener(marker1 , click, function() {
+infowindow1 .open(map, marker1 );
+}
+var contentString2 = ('Plaza Tetu&aacute;n', ' ', '8', '\n', 'places lliures: ', 4, '\n', 'bicis disponibles: ', 23) ;
+var infowindow2 = new google.maps.InfoWindow({
+content: contentString2
+});
+var myLatLng2 = new google.maps.LatLng( 41.3942720 2.17516900 );
+var marker2 = new google.maps.Marker({
+position: myLatLng2 ,
+map: map,
+title:2
+});
+google.maps.event.addListener(marker2 , click, function() {
+infowindow2 .open(map, marker2 );
+}
+var contentString3 = ('Ali Bei', ' ', '44', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 5) ;
+var infowindow3 = new google.maps.InfoWindow({
+content: contentString3
+});
+var myLatLng3 = new google.maps.LatLng( 41.3936990 2.18113700 );
+var marker3 = new google.maps.Marker({
+position: myLatLng3 ,
+map: map,
+title:3
+});
+google.maps.event.addListener(marker3 , click, function() {
+infowindow3 .open(map, marker3 );
+}
+var contentString7 = ('Pg Llu&iacute;s Companys', ' ', '1', '\n', 'places lliures: ', 6, '\n', 'bicis disponibles: ', 21) ;
+var infowindow7 = new google.maps.InfoWindow({
+content: contentString7
+});
+var myLatLng7 = new google.maps.LatLng( 41.3888560 2.18325100 );
+var marker7 = new google.maps.Marker({
+position: myLatLng7 ,
+map: map,
+title:7
+});
+google.maps.event.addListener(marker7 , click, function() {
+infowindow7 .open(map, marker7 );
+}
+var contentString8 = ('Passeig llu&iacute;s companys', ' ', '2', '\n', 'places lliures: ', 5, '\n', 'bicis disponibles: ', 21) ;
+var infowindow8 = new google.maps.InfoWindow({
+content: contentString8
+});
+var myLatLng8 = new google.maps.LatLng( 41.3890880 2.18356800 );
+var marker8 = new google.maps.Marker({
+position: myLatLng8 ,
+map: map,
+title:8
+});
+google.maps.event.addListener(marker8 , click, function() {
+infowindow8 .open(map, marker8 );
+}
+var contentString10 = ('Carrer Comer&ccedil;', ' ', '27', '\n', 'places lliures: ', 19, '\n', 'bicis disponibles: ', 13) ;
+var infowindow10 = new google.maps.InfoWindow({
+content: contentString10
+});
+var myLatLng10 = new google.maps.LatLng( 41.3849800 2.18417000 );
+var marker10 = new google.maps.Marker({
+position: myLatLng10 ,
+map: map,
+title:10
+});
+google.maps.event.addListener(marker10 , click, function() {
+infowindow10 .open(map, marker10 );
+}
+var contentString11 = ('Trelawny', ' ', '2', '\n', 'places lliures: ', 11, '\n', 'bicis disponibles: ', 8) ;
+var infowindow11 = new google.maps.InfoWindow({
+content: contentString11
+});
+var myLatLng11 = new google.maps.LatLng( 41.3816890 2.19391400 );
+var marker11 = new google.maps.Marker({
+position: myLatLng11 ,
+map: map,
+title:11
+});
+google.maps.event.addListener(marker11 , click, function() {
+infowindow11 .open(map, marker11 );
+}
+var contentString12 = ('pg mar&iacute;tim barceloneta', ' ', '23', '\n', 'places lliures: ', 19, '\n', 'bicis disponibles: ', 11) ;
+var infowindow12 = new google.maps.InfoWindow({
+content: contentString12
+});
+var myLatLng12 = new google.maps.LatLng( 41.3845380 2.19567900 );
+var marker12 = new google.maps.Marker({
+position: myLatLng12 ,
+map: map,
+title:12
+});
+google.maps.event.addListener(marker12 , click, function() {
+infowindow12 .open(map, marker12 );
+}
+var contentString14 = ('Avinguda del Marques Argentera', ' ', '19', '\n', 'places lliures: ', 6, '\n', 'bicis disponibles: ', 15) ;
+var infowindow14 = new google.maps.InfoWindow({
+content: contentString14
+});
+var myLatLng14 = new google.maps.LatLng( 41.3848250 2.18507400 );
+var marker14 = new google.maps.Marker({
+position: myLatLng14 ,
+map: map,
+title:14
+});
+google.maps.event.addListener(marker14 , click, function() {
+infowindow14 .open(map, marker14 );
+}
+var contentString15 = ('Girona', ' ', '74', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 8) ;
+var infowindow15 = new google.maps.InfoWindow({
+content: contentString15
+});
+var myLatLng15 = new google.maps.LatLng( 41.3951500 2.17076000 );
+var marker15 = new google.maps.Marker({
+position: myLatLng15 ,
+map: map,
+title:15
+});
+google.maps.event.addListener(marker15 , click, function() {
+infowindow15 .open(map, marker15 );
+}
+var contentString16 = ('Av. Meridiana', ' ', '47', '\n', 'places lliures: ', 9, '\n', 'bicis disponibles: ', 12) ;
+var infowindow16 = new google.maps.InfoWindow({
+content: contentString16
+});
+var myLatLng16 = new google.maps.LatLng( 41.3982700 2.18670800 );
+var marker16 = new google.maps.Marker({
+position: myLatLng16 ,
+map: map,
+title:16
+});
+google.maps.event.addListener(marker16 , click, function() {
+infowindow16 .open(map, marker16 );
+}
+var contentString18 = ('Rossell&oacute;', ' ', '412', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 13) ;
+var infowindow18 = new google.maps.InfoWindow({
+content: contentString18
+});
+var myLatLng18 = new google.maps.LatLng( 41.4058810 2.17414000 );
+var marker18 = new google.maps.Marker({
+position: myLatLng18 ,
+map: map,
+title:18
+});
+google.maps.event.addListener(marker18 , click, function() {
+infowindow18 .open(map, marker18 );
+}
+var contentString20 = ('Ind&uacute;stria', ' ', '157', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 6) ;
+var infowindow20 = new google.maps.InfoWindow({
+content: contentString20
+});
+var myLatLng20 = new google.maps.LatLng( 41.4097580 2.17462000 );
+var marker20 = new google.maps.Marker({
+position: myLatLng20 ,
+map: map,
+title:20
+});
+google.maps.event.addListener(marker20 , click, function() {
+infowindow20 .open(map, marker20 );
+}
+var contentString21 = ('Sant Antoni Maria Claret', ' ', '214', '\n', 'places lliures: ', 9, '\n', 'bicis disponibles: ', 12) ;
+var infowindow21 = new google.maps.InfoWindow({
+content: contentString21
+});
+var myLatLng21 = new google.maps.LatLng( 41.4108970 2.17402000 );
+var marker21 = new google.maps.Marker({
+position: myLatLng21 ,
+map: map,
+title:21
+});
+google.maps.event.addListener(marker21 , click, function() {
+infowindow21 .open(map, marker21 );
+}
+var contentString22 = ('Sardenya', ' ', '296', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 11) ;
+var infowindow22 = new google.maps.InfoWindow({
+content: contentString22
+});
+var myLatLng22 = new google.maps.LatLng( 41.4020510 2.17520600 );
+var marker22 = new google.maps.Marker({
+position: myLatLng22 ,
+map: map,
+title:22
+});
+google.maps.event.addListener(marker22 , click, function() {
+infowindow22 .open(map, marker22 );
+}
+var contentString23 = ('Bruc', ' ', '45', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 10) ;
+var infowindow23 = new google.maps.InfoWindow({
+content: contentString23
+});
+var myLatLng23 = new google.maps.LatLng( 41.3925260 2.17181200 );
+var marker23 = new google.maps.Marker({
+position: myLatLng23 ,
+map: map,
+title:23
+});
+google.maps.event.addListener(marker23 , click, function() {
+infowindow23 .open(map, marker23 );
+}
+var contentString24 = ('Marina', ' ', '185', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 6) ;
+var infowindow24 = new google.maps.InfoWindow({
+content: contentString24
+});
+var myLatLng24 = new google.maps.LatLng( 41.3999820 2.18031900 );
+var marker24 = new google.maps.Marker({
+position: myLatLng24 ,
+map: map,
+title:24
+});
+google.maps.event.addListener(marker24 , click, function() {
+infowindow24 .open(map, marker24 );
+}
+var contentString25 = ('Bruc', ' ', '102', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 5) ;
+var infowindow25 = new google.maps.InfoWindow({
+content: contentString25
+});
+var myLatLng25 = new google.maps.LatLng( 41.3951790 2.16829400 );
+var marker25 = new google.maps.Marker({
+position: myLatLng25 ,
+map: map,
+title:25
+});
+google.maps.event.addListener(marker25 , click, function() {
+infowindow25 .open(map, marker25 );
+}
+var infowindow26 = new google.maps.InfoWindow({
+content: contentString26
+});
+var myLatLng26 = new google.maps.LatLng( 41.4070350 2.18198100 );
+var marker26 = new google.maps.Marker({
+position: myLatLng26 ,
+map: map,
+title:26
+});
+google.maps.event.addListener(marker26 , click, function() {
+infowindow26 .open(map, marker26 );
+}
+var contentString27 = ('Proven&ccedil;a', ' ', '322', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 6) ;
+var infowindow27 = new google.maps.InfoWindow({
+content: contentString27
+});
+var myLatLng27 = new google.maps.LatLng( 41.3968810 2.16441500 );
+var marker27 = new google.maps.Marker({
+position: myLatLng27 ,
+map: map,
+title:27
+});
+google.maps.event.addListener(marker27 , click, function() {
+infowindow27 .open(map, marker27 );
+}
+var infowindow28 = new google.maps.InfoWindow({
+content: contentString28
+});
+var myLatLng28 = new google.maps.LatLng( 41.4072610 2.17087100 );
+var marker28 = new google.maps.Marker({
+position: myLatLng28 ,
+map: map,
+title:28
+});
+google.maps.event.addListener(marker28 , click, function() {
+infowindow28 .open(map, marker28 );
+}
+var contentString29 = ('Proven&ccedil;a', ' ', '388', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 4) ;
+var infowindow29 = new google.maps.InfoWindow({
+content: contentString29
+});
+var myLatLng29 = new google.maps.LatLng( 41.4011010 2.17008200 );
+var marker29 = new google.maps.Marker({
+position: myLatLng29 ,
+map: map,
+title:29
+});
+google.maps.event.addListener(marker29 , click, function() {
+infowindow29 .open(map, marker29 );
+}
+var contentString30 = ('Diagonal', ' ', '231', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 5) ;
+var infowindow30 = new google.maps.InfoWindow({
+content: contentString30
+});
+var myLatLng30 = new google.maps.LatLng( 41.4020460 2.18228600 );
+var marker30 = new google.maps.Marker({
+position: myLatLng30 ,
+map: map,
+title:30
+});
+google.maps.event.addListener(marker30 , click, function() {
+infowindow30 .open(map, marker30 );
+}
+var contentString32 = ('Pla&ccedil;a del mar', ' ', '1', '\n', 'places lliures: ', 18, '\n', 'bicis disponibles: ', 9) ;
+var infowindow32 = new google.maps.InfoWindow({
+content: contentString32
+});
+var myLatLng32 = new google.maps.LatLng( 41.3736980 2.18892700 );
+var marker32 = new google.maps.Marker({
+position: myLatLng32 ,
+map: map,
+title:32
+});
+google.maps.event.addListener(marker32 , click, function() {
+infowindow32 .open(map, marker32 );
+}
+var contentString33 = ('Baluart', ' ', '58', '\n', 'places lliures: ', 6, '\n', 'bicis disponibles: ', 15) ;
+var infowindow33 = new google.maps.InfoWindow({
+content: contentString33
+});
+var myLatLng33 = new google.maps.LatLng( 41.3768620 2.19077300 );
+var marker33 = new google.maps.Marker({
+position: myLatLng33 ,
+map: map,
+title:33
+});
+google.maps.event.addListener(marker33 , click, function() {
+infowindow33 .open(map, marker33 );
+}
+var contentString34 = ('Sant Pere M&eacute;s Alt', ' ', '4', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 4) ;
+var infowindow34 = new google.maps.InfoWindow({
+content: contentString34
+});
+var myLatLng34 = new google.maps.LatLng( 41.3870740 2.17524700 );
+var marker34 = new google.maps.Marker({
+position: myLatLng34 ,
+map: map,
+title:34
+});
+google.maps.event.addListener(marker34 , click, function() {
+infowindow34 .open(map, marker34 );
+}
+var contentString35 = ('Ramon Berenguer el Gran', ' ', '1', '\n', 'places lliures: ', 9, '\n', 'bicis disponibles: ', 20) ;
+var infowindow35 = new google.maps.InfoWindow({
+content: contentString35
+});
+var myLatLng35 = new google.maps.LatLng( 41.3842320 2.17787100 );
+var marker35 = new google.maps.Marker({
+position: myLatLng35 ,
+map: map,
+title:35
+});
+google.maps.event.addListener(marker35 , click, function() {
+infowindow35 .open(map, marker35 );
+}
+var contentString37 = ('Pl. Antonio L&oacute;pez', ' ', None, '\n', 'places lliures: ', 21, '\n', 'bicis disponibles: ', 3) ;
+var infowindow37 = new google.maps.InfoWindow({
+content: contentString37
+});
+var myLatLng37 = new google.maps.LatLng( 41.3812260 2.18188800 );
+var marker37 = new google.maps.Marker({
+position: myLatLng37 ,
+map: map,
+title:37
+});
+google.maps.event.addListener(marker37 , click, function() {
+infowindow37 .open(map, marker37 );
+}
+var contentString38 = ('Pl. Pau Vila', ' ', None, '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 5) ;
+var infowindow38 = new google.maps.InfoWindow({
+content: contentString38
+});
+var myLatLng38 = new google.maps.LatLng( 41.3811290 2.18639700 );
+var marker38 = new google.maps.Marker({
+position: myLatLng38 ,
+map: map,
+title:38
+});
+google.maps.event.addListener(marker38 , click, function() {
+infowindow38 .open(map, marker38 );
+}
+var contentString39 = ('Pl. Pau Vila', ' ', None, '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 4) ;
+var infowindow39 = new google.maps.InfoWindow({
+content: contentString39
+});
+var myLatLng39 = new google.maps.LatLng( 41.3810460 2.18657600 );
+var marker39 = new google.maps.Marker({
+position: myLatLng39 ,
+map: map,
+title:39
+});
+google.maps.event.addListener(marker39 , click, function() {
+infowindow39 .open(map, marker39 );
+}
+var contentString40 = ('Doctor Aiguader', ' ', '2', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 6) ;
+var infowindow40 = new google.maps.InfoWindow({
+content: contentString40
+});
+var myLatLng40 = new google.maps.LatLng( 41.3822460 2.18627500 );
+var marker40 = new google.maps.Marker({
+position: myLatLng40 ,
+map: map,
+title:40
+});
+google.maps.event.addListener(marker40 , click, function() {
+infowindow40 .open(map, marker40 );
+}
+var infowindow41 = new google.maps.InfoWindow({
+content: contentString41
+});
+var myLatLng41 = new google.maps.LatLng( 41.3793260 2.18990600 );
+var marker41 = new google.maps.Marker({
+position: myLatLng41 ,
+map: map,
+title:41
+});
+google.maps.event.addListener(marker41 , click, function() {
+infowindow41 .open(map, marker41 );
+}
+var contentString42 = ('Ciutat de Granada', ' ', '168', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 8) ;
+var infowindow42 = new google.maps.InfoWindow({
+content: contentString42
+});
+var myLatLng42 = new google.maps.LatLng( 41.4044180 2.19037900 );
+var marker42 = new google.maps.Marker({
+position: myLatLng42 ,
+map: map,
+title:42
+});
+google.maps.event.addListener(marker42 , click, function() {
+infowindow42 .open(map, marker42 );
+}
+var contentString44 = ('Av Meridiana', ' ', '66', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 13) ;
+var infowindow44 = new google.maps.InfoWindow({
+content: contentString44
+});
+var myLatLng44 = new google.maps.LatLng( 41.4021650 2.18713600 );
+var marker44 = new google.maps.Marker({
+position: myLatLng44 ,
+map: map,
+title:44
+});
+google.maps.event.addListener(marker44 , click, function() {
+infowindow44 .open(map, marker44 );
+}
+var infowindow45 = new google.maps.InfoWindow({
+content: contentString45
+});
+var myLatLng45 = new google.maps.LatLng( 41.3920050 2.19042600 );
+var marker45 = new google.maps.Marker({
+position: myLatLng45 ,
+map: map,
+title:45
+});
+google.maps.event.addListener(marker45 , click, function() {
+infowindow45 .open(map, marker45 );
+}
+var contentString46 = ('Ramon trias Fargas', ' ', '19', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 14) ;
+var infowindow46 = new google.maps.InfoWindow({
+content: contentString46
+});
+var myLatLng46 = new google.maps.LatLng( 41.3883590 2.19300400 );
+var marker46 = new google.maps.Marker({
+position: myLatLng46 ,
+map: map,
+title:46
+});
+google.maps.event.addListener(marker46 , click, function() {
+infowindow46 .open(map, marker46 );
+}
+var contentString47 = ('Ramon Trias Fargas', ' ', None, '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 20) ;
+var infowindow47 = new google.maps.InfoWindow({
+content: contentString47
+});
+var myLatLng47 = new google.maps.LatLng( 41.3890760 2.19210400 );
+var marker47 = new google.maps.Marker({
+position: myLatLng47 ,
+map: map,
+title:47
+});
+google.maps.event.addListener(marker47 , click, function() {
+infowindow47 .open(map, marker47 );
+}
+var contentString49 = ('Rosa Sensat en front', ' ', '13', '\n', 'places lliures: ', 11, '\n', 'bicis disponibles: ', 10) ;
+var infowindow49 = new google.maps.InfoWindow({
+content: contentString49
+});
+var myLatLng49 = new google.maps.LatLng( 41.3910600 2.19645700 );
+var marker49 = new google.maps.Marker({
+position: myLatLng49 ,
+map: map,
+title:49
+});
+google.maps.event.addListener(marker49 , click, function() {
+infowindow49 .open(map, marker49 );
+}
+var contentString50 = ('Paral&middot;lel', ' ', '54', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 17) ;
+var infowindow50 = new google.maps.InfoWindow({
+content: contentString50
+});
+var myLatLng50 = new google.maps.LatLng( 41.3749470 2.17087800 );
+var marker50 = new google.maps.Marker({
+position: myLatLng50 ,
+map: map,
+title:50
+});
+google.maps.event.addListener(marker50 , click, function() {
+infowindow50 .open(map, marker50 );
+}
+var contentString51 = ('Pl. Vicen&ccedil; Martorell', ' ', None, '\n', 'places lliures: ', 11, '\n', 'bicis disponibles: ', 7) ;
+var infowindow51 = new google.maps.InfoWindow({
+content: contentString51
+});
+var myLatLng51 = new google.maps.LatLng( 41.3840540 2.16901900 );
+var marker51 = new google.maps.Marker({
+position: myLatLng51 ,
+map: map,
+title:51
+});
+google.maps.event.addListener(marker51 , click, function() {
+infowindow51 .open(map, marker51 );
+}
+var contentString52 = ('Pla&ccedil;a de Sant Miquel', ' ', '1', '\n', 'places lliures: ', 3, '\n', 'bicis disponibles: ', 18) ;
+var infowindow52 = new google.maps.InfoWindow({
+content: contentString52
+});
+var myLatLng52 = new google.maps.LatLng( 41.3817660 2.17738000 );
+var marker52 = new google.maps.Marker({
+position: myLatLng52 ,
+map: map,
+title:52
+});
+google.maps.event.addListener(marker52 , click, function() {
+infowindow52 .open(map, marker52 );
+}
+var contentString53 = ('Pl. Carles Pi i Sunyer', ' ', None, '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 3) ;
+var infowindow53 = new google.maps.InfoWindow({
+content: contentString53
+});
+var myLatLng53 = new google.maps.LatLng( 41.3852270 2.17387800 );
+var marker53 = new google.maps.Marker({
+position: myLatLng53 ,
+map: map,
+title:53
+});
+google.maps.event.addListener(marker53 , click, function() {
+infowindow53 .open(map, marker53 );
+}
+var contentString54 = ('Sant Oleguer', ' ', '16', '\n', 'places lliures: ', 7, '\n', 'bicis disponibles: ', 14) ;
+var infowindow54 = new google.maps.InfoWindow({
+content: contentString54
+});
+var myLatLng54 = new google.maps.LatLng( 41.3775530 2.17074000 );
+var marker54 = new google.maps.Marker({
+position: myLatLng54 ,
+map: map,
+title:54
+});
+google.maps.event.addListener(marker54 , click, function() {
+infowindow54 .open(map, marker54 );
+}
+var contentString55 = ('La Rambla', ' ', '80', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 6) ;
+var infowindow55 = new google.maps.InfoWindow({
+content: contentString55
+});
+var myLatLng55 = new google.maps.LatLng( 41.3811540 2.17349700 );
+var marker55 = new google.maps.Marker({
+position: myLatLng55 ,
+map: map,
+title:55
+});
+google.maps.event.addListener(marker55 , click, function() {
+infowindow55 .open(map, marker55 );
+}
+var contentString56 = ('Portal de Santa Madrona', ' ', '2', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 10) ;
+var infowindow56 = new google.maps.InfoWindow({
+content: contentString56
+});
+var myLatLng56 = new google.maps.LatLng( 41.3770110 2.17583400 );
+var marker56 = new google.maps.Marker({
+position: myLatLng56 ,
+map: map,
+title:56
+});
+google.maps.event.addListener(marker56 , click, function() {
+infowindow56 .open(map, marker56 );
+}
+var contentString57 = ('La Rambla', ' ', '2', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 12) ;
+var infowindow57 = new google.maps.InfoWindow({
+content: contentString57
+});
+var myLatLng57 = new google.maps.LatLng( 41.3767580 2.17709300 );
+var marker57 = new google.maps.Marker({
+position: myLatLng57 ,
+map: map,
+title:57
+});
+google.maps.event.addListener(marker57 , click, function() {
+infowindow57 .open(map, marker57 );
+}
+var contentString58 = ('Pla&ccedil;a dels &Agrave;ngels', ' ', '1', '\n', 'places lliures: ', 9, '\n', 'bicis disponibles: ', 12) ;
+var infowindow58 = new google.maps.InfoWindow({
+content: contentString58
+});
+var myLatLng58 = new google.maps.LatLng( 41.3828220 2.16715400 );
+var marker58 = new google.maps.Marker({
+position: myLatLng58 ,
+map: map,
+title:58
+});
+google.maps.event.addListener(marker58 , click, function() {
+infowindow58 .open(map, marker58 );
+}
+var contentString60 = ('Rambla Catalunya ', ' ', '42', '\n', 'places lliures: ', 19, '\n', 'bicis disponibles: ', 8) ;
+var infowindow60 = new google.maps.InfoWindow({
+content: contentString60
+});
+var myLatLng60 = new google.maps.LatLng( 41.3903490 2.16424000 );
+var marker60 = new google.maps.Marker({
+position: myLatLng60 ,
+map: map,
+title:60
+});
+google.maps.event.addListener(marker60 , click, function() {
+infowindow60 .open(map, marker60 );
+}
+var contentString61 = ('Rambla Catalunya', ' ', '47', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 9) ;
+var infowindow61 = new google.maps.InfoWindow({
+content: contentString61
+});
+var myLatLng61 = new google.maps.LatLng( 41.3901430 2.16494600 );
+var marker61 = new google.maps.Marker({
+position: myLatLng61 ,
+map: map,
+title:61
+});
+google.maps.event.addListener(marker61 , click, function() {
+infowindow61 .open(map, marker61 );
+}
+var contentString62 = ('Pl. Catalunya ', ' ', '5', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 7) ;
+var infowindow62 = new google.maps.InfoWindow({
+content: contentString62
+});
+var myLatLng62 = new google.maps.LatLng( 41.3871420 2.16885800 );
+var marker62 = new google.maps.Marker({
+position: myLatLng62 ,
+map: map,
+title:62
+});
+google.maps.event.addListener(marker62 , click, function() {
+infowindow62 .open(map, marker62 );
+}
+var contentString63 = ('Pl. Catalunya', ' ', '7', '\n', 'places lliures: ', 21, '\n', 'bicis disponibles: ', 6) ;
+var infowindow63 = new google.maps.InfoWindow({
+content: contentString63
+});
+var myLatLng63 = new google.maps.LatLng( 41.3864390 2.16941700 );
+var marker63 = new google.maps.Marker({
+position: myLatLng63 ,
+map: map,
+title:63
+});
+google.maps.event.addListener(marker63 , click, function() {
+infowindow63 .open(map, marker63 );
+}
+var contentString64 = ('Pl. Catalunya', ' ', None, '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 3) ;
+var infowindow64 = new google.maps.InfoWindow({
+content: contentString64
+});
+var myLatLng64 = new google.maps.LatLng( 41.3874690 2.16904800 );
+var marker64 = new google.maps.Marker({
+position: myLatLng64 ,
+map: map,
+title:64
+});
+google.maps.event.addListener(marker64 , click, function() {
+infowindow64 .open(map, marker64 );
+}
+var contentString65 = ('Pl. Catalunya', ' ', None, '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 6) ;
+var infowindow65 = new google.maps.InfoWindow({
+content: contentString65
+});
+var myLatLng65 = new google.maps.LatLng( 41.3876780 2.16958700 );
+var marker65 = new google.maps.Marker({
+position: myLatLng65 ,
+map: map,
+title:65
+});
+google.maps.event.addListener(marker65 , click, function() {
+infowindow65 .open(map, marker65 );
+}
+var contentString66 = ('Gran Via', ' ', '509', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 7) ;
+var infowindow66 = new google.maps.InfoWindow({
+content: contentString66
+});
+var myLatLng66 = new google.maps.LatLng( 41.3890970 2.16793300 );
+var marker66 = new google.maps.Marker({
+position: myLatLng66 ,
+map: map,
+title:66
+});
+google.maps.event.addListener(marker66 , click, function() {
+infowindow66 .open(map, marker66 );
+}
+var infowindow67 = new google.maps.InfoWindow({
+content: contentString67
+});
+var myLatLng67 = new google.maps.LatLng( 41.3850120 2.14584300 );
+var marker67 = new google.maps.Marker({
+position: myLatLng67 ,
+map: map,
+title:67
+});
+google.maps.event.addListener(marker67 , click, function() {
+infowindow67 .open(map, marker67 );
+}
+var contentString68 = ('Rambla Catalunya', ' ', '133', '\n', 'places lliures: ', 11, '\n', 'bicis disponibles: ', 16) ;
+var infowindow68 = new google.maps.InfoWindow({
+content: contentString68
+});
+var myLatLng68 = new google.maps.LatLng( 41.3953640 2.15735600 );
+var marker68 = new google.maps.Marker({
+position: myLatLng68 ,
+map: map,
+title:68
+});
+google.maps.event.addListener(marker68 , click, function() {
+infowindow68 .open(map, marker68 );
+}
+var contentString70 = ('Villarroel', ' ', '2', '\n', 'places lliures: ', 6, '\n', 'bicis disponibles: ', 15) ;
+var infowindow70 = new google.maps.InfoWindow({
+content: contentString70
+});
+var myLatLng70 = new google.maps.LatLng( 41.3813280 2.16178600 );
+var marker70 = new google.maps.Marker({
+position: myLatLng70 ,
+map: map,
+title:70
+});
+google.maps.event.addListener(marker70 , click, function() {
+infowindow70 .open(map, marker70 );
+}
+var contentString71 = ('Floridablanca ', ' ', '145', '\n', 'places lliures: ', 11, '\n', 'bicis disponibles: ', 10) ;
+var infowindow71 = new google.maps.InfoWindow({
+content: contentString71
+});
+var myLatLng71 = new google.maps.LatLng( 41.3819310 2.16296900 );
+var marker71 = new google.maps.Marker({
+position: myLatLng71 ,
+map: map,
+title:71
+});
+google.maps.event.addListener(marker71 , click, function() {
+infowindow71 .open(map, marker71 );
+}
+var contentString72 = ('Rossell&oacute;', ' ', '217', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 8) ;
+var infowindow72 = new google.maps.InfoWindow({
+content: contentString72
+});
+var myLatLng72 = new google.maps.LatLng( 41.3931730 2.15708100 );
+var marker72 = new google.maps.Marker({
+position: myLatLng72 ,
+map: map,
+title:72
+});
+google.maps.event.addListener(marker72 , click, function() {
+infowindow72 .open(map, marker72 );
+}
+var contentString73 = ('Enric Granados', ' ', '99', '\n', 'places lliures: ', 11, '\n', 'bicis disponibles: ', 10) ;
+var infowindow73 = new google.maps.InfoWindow({
+content: contentString73
+});
+var myLatLng73 = new google.maps.LatLng( 41.3928460 2.15578800 );
+var marker73 = new google.maps.Marker({
+position: myLatLng73 ,
+map: map,
+title:73
+});
+google.maps.event.addListener(marker73 , click, function() {
+infowindow73 .open(map, marker73 );
+}
+var infowindow75 = new google.maps.InfoWindow({
+content: contentString75
+});
+var myLatLng75 = new google.maps.LatLng( 41.3850810 2.14286800 );
+var marker75 = new google.maps.Marker({
+position: myLatLng75 ,
+map: map,
+title:75
+});
+google.maps.event.addListener(marker75 , click, function() {
+infowindow75 .open(map, marker75 );
+}
+var contentString76 = ('CORSEGA', ' ', '216', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 10) ;
+var infowindow76 = new google.maps.InfoWindow({
+content: contentString76
+});
+var myLatLng76 = new google.maps.LatLng( 41.3917510 2.15312300 );
+var marker76 = new google.maps.Marker({
+position: myLatLng76 ,
+map: map,
+title:76
+});
+google.maps.event.addListener(marker76 , click, function() {
+infowindow76 .open(map, marker76 );
+}
+var contentString78 = ('Pl. Universitat', ' ', None, '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 19) ;
+var infowindow78 = new google.maps.InfoWindow({
+content: contentString78
+});
+var myLatLng78 = new google.maps.LatLng( 41.3855980 2.16338000 );
+var marker78 = new google.maps.Marker({
+position: myLatLng78 ,
+map: map,
+title:78
+});
+google.maps.event.addListener(marker78 , click, function() {
+infowindow78 .open(map, marker78 );
+}
+var contentString81 = ('Vilamar&iacute; davant', ' ', '61', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 4) ;
+var infowindow81 = new google.maps.InfoWindow({
+content: contentString81
+});
+var myLatLng81 = new google.maps.LatLng( 41.3789150 2.14917400 );
+var marker81 = new google.maps.Marker({
+position: myLatLng81 ,
+map: map,
+title:81
+});
+google.maps.event.addListener(marker81 , click, function() {
+infowindow81 .open(map, marker81 );
+}
+var contentString82 = ('Rocafort', ' ', '72', '\n', 'places lliures: ', 6, '\n', 'bicis disponibles: ', 25) ;
+var infowindow82 = new google.maps.InfoWindow({
+content: contentString82
+});
+var myLatLng82 = new google.maps.LatLng( 41.3790160 2.15379900 );
+var marker82 = new google.maps.Marker({
+position: myLatLng82 ,
+map: map,
+title:82
+});
+google.maps.event.addListener(marker82 , click, function() {
+infowindow82 .open(map, marker82 );
+}
+var contentString83 = ('Compte Borrell', ' ', '177', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 6) ;
+var infowindow83 = new google.maps.InfoWindow({
+content: contentString83
+});
+var myLatLng83 = new google.maps.LatLng( 41.3840750 2.15365400 );
+var marker83 = new google.maps.Marker({
+position: myLatLng83 ,
+map: map,
+title:83
+});
+google.maps.event.addListener(marker83 , click, function() {
+infowindow83 .open(map, marker83 );
+}
+var contentString84 = ('Diputaci&oacute;', ' ', '152', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 13) ;
+var infowindow84 = new google.maps.InfoWindow({
+content: contentString84
+});
+var myLatLng84 = new google.maps.LatLng( 41.3833740 2.15757700 );
+var marker84 = new google.maps.Marker({
+position: myLatLng84 ,
+map: map,
+title:84
+});
+google.maps.event.addListener(marker84 , click, function() {
+infowindow84 .open(map, marker84 );
+}
+var contentString85 = ('Paral&middot;lel', ' ', '146', '\n', 'places lliures: ', 6, '\n', 'bicis disponibles: ', 15) ;
+var infowindow85 = new google.maps.InfoWindow({
+content: contentString85
+});
+var myLatLng85 = new google.maps.LatLng( 41.3750760 2.15904600 );
+var marker85 = new google.maps.Marker({
+position: myLatLng85 ,
+map: map,
+title:85
+});
+google.maps.event.addListener(marker85 , click, function() {
+infowindow85 .open(map, marker85 );
+}
+var infowindow87 = new google.maps.InfoWindow({
+content: contentString87
+});
+var myLatLng87 = new google.maps.LatLng( 41.3831560 2.14850600 );
+var marker87 = new google.maps.Marker({
+position: myLatLng87 ,
+map: map,
+title:87
+});
+google.maps.event.addListener(marker87 , click, function() {
+infowindow87 .open(map, marker87 );
+}
+var contentString88 = ('Londres', ' ', '101', '\n', 'places lliures: ', 11, '\n', 'bicis disponibles: ', 9) ;
+var infowindow88 = new google.maps.InfoWindow({
+content: contentString88
+});
+var myLatLng88 = new google.maps.LatLng( 41.3935470 2.15076400 );
+var marker88 = new google.maps.Marker({
+position: myLatLng88 ,
+map: map,
+title:88
+});
+google.maps.event.addListener(marker88 , click, function() {
+infowindow88 .open(map, marker88 );
+}
+var contentString89 = ('Rossell&oacute;', ' ', '101', '\n', 'places lliures: ', 5, '\n', 'bicis disponibles: ', 21) ;
+var infowindow89 = new google.maps.InfoWindow({
+content: contentString89
+});
+var myLatLng89 = new google.maps.LatLng( 41.3879530 2.15016900 );
+var marker89 = new google.maps.Marker({
+position: myLatLng89 ,
+map: map,
+title:89
+});
+google.maps.event.addListener(marker89 , click, function() {
+infowindow89 .open(map, marker89 );
+}
+var contentString91 = ('Comte Borrell', ' ', '119', '\n', 'places lliures: ', 19, '\n', 'bicis disponibles: ', 10) ;
+var infowindow91 = new google.maps.InfoWindow({
+content: contentString91
+});
+var myLatLng91 = new google.maps.LatLng( 41.3804520 2.15840300 );
+var marker91 = new google.maps.Marker({
+position: myLatLng91 ,
+map: map,
+title:91
+});
+google.maps.event.addListener(marker91 , click, function() {
+infowindow91 .open(map, marker91 );
+}
+var contentString93 = ('Gran Via', ' ', '375', '\n', 'places lliures: ', 10, '\n', 'bicis disponibles: ', 11) ;
+var infowindow93 = new google.maps.InfoWindow({
+content: contentString93
+});
+var myLatLng93 = new google.maps.LatLng( 41.3754540 2.14978600 );
+var marker93 = new google.maps.Marker({
+position: myLatLng93 ,
+map: map,
+title:93
+});
+google.maps.event.addListener(marker93 , click, function() {
+infowindow93 .open(map, marker93 );
+}
+var contentString94 = ('Gran Via', ' ', '375', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 8) ;
+var infowindow94 = new google.maps.InfoWindow({
+content: contentString94
+});
+var myLatLng94 = new google.maps.LatLng( 41.3756190 2.14988900 );
+var marker94 = new google.maps.Marker({
+position: myLatLng94 ,
+map: map,
+title:94
+});
+google.maps.event.addListener(marker94 , click, function() {
+infowindow94 .open(map, marker94 );
+}
+var contentString95 = ('Tarragona', ' ', '103', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 19) ;
+var infowindow95 = new google.maps.InfoWindow({
+content: contentString95
+});
+var myLatLng95 = new google.maps.LatLng( 41.3764280 2.14773400 );
+var marker95 = new google.maps.Marker({
+position: myLatLng95 ,
+map: map,
+title:95
+});
+google.maps.event.addListener(marker95 , click, function() {
+infowindow95 .open(map, marker95 );
+}
+var contentString96 = ('Gran Via', ' ', '361', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 4) ;
+var infowindow96 = new google.maps.InfoWindow({
+content: contentString96
+});
+var myLatLng96 = new google.maps.LatLng( 41.3741520 2.14815400 );
+var marker96 = new google.maps.Marker({
+position: myLatLng96 ,
+map: map,
+title:96
+});
+google.maps.event.addListener(marker96 , click, function() {
+infowindow96 .open(map, marker96 );
+}
+var contentString101 = ('Av. Pau Casals', ' ', '1', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 7) ;
+var infowindow101 = new google.maps.InfoWindow({
+content: contentString101
+});
+var myLatLng101 = new google.maps.LatLng( 41.3929880 2.14356200 );
+var marker101 = new google.maps.Marker({
+position: myLatLng101 ,
+map: map,
+title:101
+});
+google.maps.event.addListener(marker101 , click, function() {
+infowindow101 .open(map, marker101 );
+}
+var contentString102 = ('Av. Pau Casals', ' ', '3', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 7) ;
+var infowindow102 = new google.maps.InfoWindow({
+content: contentString102
+});
+var myLatLng102 = new google.maps.LatLng( 41.3930930 2.14336500 );
+var marker102 = new google.maps.Marker({
+position: myLatLng102 ,
+map: map,
+title:102
+});
+google.maps.event.addListener(marker102 , click, function() {
+infowindow102 .open(map, marker102 );
+}
+var infowindow103 = new google.maps.InfoWindow({
+content: contentString103
+});
+var myLatLng103 = new google.maps.LatLng( 41.4098560 2.18821700 );
+var marker103 = new google.maps.Marker({
+position: myLatLng103 ,
+map: map,
+title:103
+});
+google.maps.event.addListener(marker103 , click, function() {
+infowindow103 .open(map, marker103 );
+}
+var contentString104 = ('C/Val&egrave;ncia', ' ', '621', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 13) ;
+var infowindow104 = new google.maps.InfoWindow({
+content: contentString104
+});
+var myLatLng104 = new google.maps.LatLng( 41.4108210 2.18736500 );
+var marker104 = new google.maps.Marker({
+position: myLatLng104 ,
+map: map,
+title:104
+});
+google.maps.event.addListener(marker104 , click, function() {
+infowindow104 .open(map, marker104 );
+}
+var contentString105 = ('PL. Urquinaona', ' ', '9', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 4) ;
+var infowindow105 = new google.maps.InfoWindow({
+content: contentString105
+});
+var myLatLng105 = new google.maps.LatLng( 41.3890690 2.17342400 );
+var marker105 = new google.maps.Marker({
+position: myLatLng105 ,
+map: map,
+title:105
+});
+google.maps.event.addListener(marker105 , click, function() {
+infowindow105 .open(map, marker105 );
+}
+var contentString107 = ('Travessera de Gracia', ' ', '92', '\n', 'places lliures: ', 5, '\n', 'bicis disponibles: ', 15) ;
+var infowindow107 = new google.maps.InfoWindow({
+content: contentString107
+});
+var myLatLng107 = new google.maps.LatLng( 41.3982980 2.15312800 );
+var marker107 = new google.maps.Marker({
+position: myLatLng107 ,
+map: map,
+title:107
+});
+google.maps.event.addListener(marker107 , click, function() {
+infowindow107 .open(map, marker107 );
+}
+var infowindow108 = new google.maps.InfoWindow({
+content: contentString108
+});
+var myLatLng108 = new google.maps.LatLng( 41.4023140 2.16496100 );
+var marker108 = new google.maps.Marker({
+position: myLatLng108 ,
+map: map,
+title:108
+});
+google.maps.event.addListener(marker108 , click, function() {
+infowindow108 .open(map, marker108 );
+}
+var contentString109 = ('C/ Londres', ' ', '53', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 8) ;
+var infowindow109 = new google.maps.InfoWindow({
+content: contentString109
+});
+var myLatLng109 = new google.maps.LatLng( 41.3909810 2.14737000 );
+var marker109 = new google.maps.Marker({
+position: myLatLng109 ,
+map: map,
+title:109
+});
+google.maps.event.addListener(marker109 , click, function() {
+infowindow109 .open(map, marker109 );
+}
+var contentString110 = ('Avda. Roma', ' ', '117', '\n', 'places lliures: ', 9, '\n', 'bicis disponibles: ', 11) ;
+var infowindow110 = new google.maps.InfoWindow({
+content: contentString110
+});
+var myLatLng110 = new google.maps.LatLng( 41.3855540 2.15481300 );
+var marker110 = new google.maps.Marker({
+position: myLatLng110 ,
+map: map,
+title:110
+});
+google.maps.event.addListener(marker110 , click, function() {
+infowindow110 .open(map, marker110 );
+}
+var infowindow111 = new google.maps.InfoWindow({
+content: contentString111
+});
+var myLatLng111 = new google.maps.LatLng( 41.3812200 2.15308000 );
+var marker111 = new google.maps.Marker({
+position: myLatLng111 ,
+map: map,
+title:111
+});
+google.maps.event.addListener(marker111 , click, function() {
+infowindow111 .open(map, marker111 );
+}
+var contentString112 = ('Floridablanca', ' ', '49', '\n', 'places lliures: ', 4, '\n', 'bicis disponibles: ', 16) ;
+var infowindow112 = new google.maps.InfoWindow({
+content: contentString112
+});
+var myLatLng112 = new google.maps.LatLng( 41.3776440 2.15725000 );
+var marker112 = new google.maps.Marker({
+position: myLatLng112 ,
+map: map,
+title:112
+});
+google.maps.event.addListener(marker112 , click, function() {
+infowindow112 .open(map, marker112 );
+}
+var contentString113 = ('Comte Borrell', ' ', '60', '\n', 'places lliures: ', 18, '\n', 'bicis disponibles: ', 9) ;
+var infowindow113 = new google.maps.InfoWindow({
+content: contentString113
+});
+var myLatLng113 = new google.maps.LatLng( 41.3788360 2.16080100 );
+var marker113 = new google.maps.Marker({
+position: myLatLng113 ,
+map: map,
+title:113
+});
+google.maps.event.addListener(marker113 , click, function() {
+infowindow113 .open(map, marker113 );
+}
+var contentString114 = ('Pl. Jean Genet', ' ', '1', '\n', 'places lliures: ', 9, '\n', 'bicis disponibles: ', 12) ;
+var infowindow114 = new google.maps.InfoWindow({
+content: contentString114
+});
+var myLatLng114 = new google.maps.LatLng( 41.3768010 2.17303900 );
+var marker114 = new google.maps.Marker({
+position: myLatLng114 ,
+map: map,
+title:114
+});
+google.maps.event.addListener(marker114 , click, function() {
+infowindow114 .open(map, marker114 );
+}
+var contentString115 = ('Marqu&egrave;s d&#039;Argentera', ' ', '1', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 4) ;
+var infowindow115 = new google.maps.InfoWindow({
+content: contentString115
+});
+var myLatLng115 = new google.maps.LatLng( 41.3832750 2.18370400 );
+var marker115 = new google.maps.Marker({
+position: myLatLng115 ,
+map: map,
+title:115
+});
+google.maps.event.addListener(marker115 , click, function() {
+infowindow115 .open(map, marker115 );
+}
+var contentString117 = ('Rosa Sensat', ' ', '9', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 5) ;
+var infowindow117 = new google.maps.InfoWindow({
+content: contentString117
+});
+var myLatLng117 = new google.maps.LatLng( 41.3906660 2.19702400 );
+var marker117 = new google.maps.Marker({
+position: myLatLng117 ,
+map: map,
+title:117
+});
+google.maps.event.addListener(marker117 , click, function() {
+infowindow117 .open(map, marker117 );
+}
+var contentString118 = ('Pujades', ' ', '1', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 10) ;
+var infowindow118 = new google.maps.InfoWindow({
+content: contentString118
+});
+var myLatLng118 = new google.maps.LatLng( 41.3918840 2.18730200 );
+var marker118 = new google.maps.Marker({
+position: myLatLng118 ,
+map: map,
+title:118
+});
+google.maps.event.addListener(marker118 , click, function() {
+infowindow118 .open(map, marker118 );
+}
+var infowindow119 = new google.maps.InfoWindow({
+content: contentString119
+});
+var myLatLng119 = new google.maps.LatLng( 41.3966320 2.18280200 );
+var marker119 = new google.maps.Marker({
+position: myLatLng119 ,
+map: map,
+title:119
+});
+google.maps.event.addListener(marker119 , click, function() {
+infowindow119 .open(map, marker119 );
+}
+var contentString120 = ('Lepant', ' ', '278', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 8) ;
+var infowindow120 = new google.maps.InfoWindow({
+content: contentString120
+});
+var myLatLng120 = new google.maps.LatLng( 41.4046660 2.17651500 );
+var marker120 = new google.maps.Marker({
+position: myLatLng120 ,
+map: map,
+title:120
+});
+google.maps.event.addListener(marker120 , click, function() {
+infowindow120 .open(map, marker120 );
+}
+var contentString121 = ('Castillejos', ' ', '258', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 3) ;
+var infowindow121 = new google.maps.InfoWindow({
+content: contentString121
+});
+var myLatLng121 = new google.maps.LatLng( 41.4062930 2.17868900 );
+var marker121 = new google.maps.Marker({
+position: myLatLng121 ,
+map: map,
+title:121
+});
+google.maps.event.addListener(marker121 , click, function() {
+infowindow121 .open(map, marker121 );
+}
+var contentString122 = ('N&agrave;pols', ' ', '344', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 7) ;
+var infowindow122 = new google.maps.InfoWindow({
+content: contentString122
+});
+var myLatLng122 = new google.maps.LatLng( 41.4054350 2.16624000 );
+var marker122 = new google.maps.Marker({
+position: myLatLng122 ,
+map: map,
+title:122
+});
+google.maps.event.addListener(marker122 , click, function() {
+infowindow122 .open(map, marker122 );
+}
+var infowindow124 = new google.maps.InfoWindow({
+content: contentString124
+});
+var myLatLng124 = new google.maps.LatLng( 41.3771310 2.19085700 );
+var marker124 = new google.maps.Marker({
+position: myLatLng124 ,
+map: map,
+title:124
+});
+google.maps.event.addListener(marker124 , click, function() {
+infowindow124 .open(map, marker124 );
+}
+var contentString125 = ('Passeig Maritim', ' ', '31', '\n', 'places lliures: ', 18, '\n', 'bicis disponibles: ', 3) ;
+var infowindow125 = new google.maps.InfoWindow({
+content: contentString125
+});
+var myLatLng125 = new google.maps.LatLng( 41.3844260 2.19559500 );
+var marker125 = new google.maps.Marker({
+position: myLatLng125 ,
+map: map,
+title:125
+});
+google.maps.event.addListener(marker125 , click, function() {
+infowindow125 .open(map, marker125 );
+}
+var infowindow126 = new google.maps.InfoWindow({
+content: contentString126
+});
+var myLatLng126 = new google.maps.LatLng( 41.3806410 2.18224300 );
+var marker126 = new google.maps.Marker({
+position: myLatLng126 ,
+map: map,
+title:126
+});
+google.maps.event.addListener(marker126 , click, function() {
+infowindow126 .open(map, marker126 );
+}
+var infowindow127 = new google.maps.InfoWindow({
+content: contentString127
+});
+var myLatLng127 = new google.maps.LatLng( 41.4123220 2.19142000 );
+var marker127 = new google.maps.Marker({
+position: myLatLng127 ,
+map: map,
+title:127
+});
+google.maps.event.addListener(marker127 , click, function() {
+infowindow127 .open(map, marker127 );
+}
+var contentString129 = ('Manso', ' ', '46', '\n', 'places lliures: ', 6, '\n', 'bicis disponibles: ', 21) ;
+var infowindow129 = new google.maps.InfoWindow({
+content: contentString129
+});
+var myLatLng129 = new google.maps.LatLng( 41.3770900 2.16124000 );
+var marker129 = new google.maps.Marker({
+position: myLatLng129 ,
+map: map,
+title:129
+});
+google.maps.event.addListener(marker129 , click, function() {
+infowindow129 .open(map, marker129 );
+}
+var contentString130 = ('Rambla Guip&uacute;scoa', ' ', '103', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 5) ;
+var infowindow130 = new google.maps.InfoWindow({
+content: contentString130
+});
+var myLatLng130 = new google.maps.LatLng( 41.4199050 2.20157300 );
+var marker130 = new google.maps.Marker({
+position: myLatLng130 ,
+map: map,
+title:130
+});
+google.maps.event.addListener(marker130 , click, function() {
+infowindow130 .open(map, marker130 );
+}
+var infowindow131 = new google.maps.InfoWindow({
+content: contentString131
+});
+var myLatLng131 = new google.maps.LatLng( 41.4228080 2.20603600 );
+var marker131 = new google.maps.Marker({
+position: myLatLng131 ,
+map: map,
+title:131
+});
+google.maps.event.addListener(marker131 , click, function() {
+infowindow131 .open(map, marker131 );
+}
+var contentString132 = ('Pl. Valent&iacute; Amirall', ' ', None, '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 13) ;
+var infowindow132 = new google.maps.InfoWindow({
+content: contentString132
+});
+var myLatLng132 = new google.maps.LatLng( 41.4084390 2.19217300 );
+var marker132 = new google.maps.Marker({
+position: myLatLng132 ,
+map: map,
+title:132
+});
+google.maps.event.addListener(marker132 , click, function() {
+infowindow132 .open(map, marker132 );
+}
+var contentString133 = ('Gran V&iacute;a', ' ', '902', '\n', 'places lliures: ', 6, '\n', 'bicis disponibles: ', 10) ;
+var infowindow133 = new google.maps.InfoWindow({
+content: contentString133
+});
+var myLatLng133 = new google.maps.LatLng( 41.4074110 2.19281900 );
+var marker133 = new google.maps.Marker({
+position: myLatLng133 ,
+map: map,
+title:133
+});
+google.maps.event.addListener(marker133 , click, function() {
+infowindow133 .open(map, marker133 );
+}
+var contentString134 = ('Gran Via', ' ', '990', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 7) ;
+var infowindow134 = new google.maps.InfoWindow({
+content: contentString134
+});
+var myLatLng134 = new google.maps.LatLng( 41.4113150 2.19812600 );
+var marker134 = new google.maps.Marker({
+position: myLatLng134 ,
+map: map,
+title:134
+});
+google.maps.event.addListener(marker134 , click, function() {
+infowindow134 .open(map, marker134 );
+}
+var contentString135 = ('Gran V&iacute;a', ' ', '981', '\n', 'places lliures: ', 9, '\n', 'bicis disponibles: ', 10) ;
+var infowindow135 = new google.maps.InfoWindow({
+content: contentString135
+});
+var myLatLng135 = new google.maps.LatLng( 41.4119080 2.19793600 );
+var marker135 = new google.maps.Marker({
+position: myLatLng135 ,
+map: map,
+title:135
+});
+google.maps.event.addListener(marker135 , click, function() {
+infowindow135 .open(map, marker135 );
+}
+var contentString136 = ('Gran V&iacute;a', ' ', '1062', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 10) ;
+var infowindow136 = new google.maps.InfoWindow({
+content: contentString136
+});
+var myLatLng136 = new google.maps.LatLng( 41.4142260 2.20173400 );
+var marker136 = new google.maps.Marker({
+position: myLatLng136 ,
+map: map,
+title:136
+});
+google.maps.event.addListener(marker136 , click, function() {
+infowindow136 .open(map, marker136 );
+}
+var contentString137 = ('Gran V&iacute;a, 1041/ Selva de Mar', ' ', '1041', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 11) ;
+var infowindow137 = new google.maps.InfoWindow({
+content: contentString137
+});
+var myLatLng137 = new google.maps.LatLng( 41.4147580 2.20153800 );
+var marker137 = new google.maps.Marker({
+position: myLatLng137 ,
+map: map,
+title:137
+});
+google.maps.event.addListener(marker137 , click, function() {
+infowindow137 .open(map, marker137 );
+}
+var contentString138 = ('Gran V&iacute;a', ' ', '1118', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 12) ;
+var infowindow138 = new google.maps.InfoWindow({
+content: contentString138
+});
+var myLatLng138 = new google.maps.LatLng( 41.4169660 2.20539700 );
+var marker138 = new google.maps.Marker({
+position: myLatLng138 ,
+map: map,
+title:138
+});
+google.maps.event.addListener(marker138 , click, function() {
+infowindow138 .open(map, marker138 );
+}
+var contentString139 = ('Gran V&iacute;a', ' ', '1131', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 17) ;
+var infowindow139 = new google.maps.InfoWindow({
+content: contentString139
+});
+var myLatLng139 = new google.maps.LatLng( 41.4180350 2.20602300 );
+var marker139 = new google.maps.Marker({
+position: myLatLng139 ,
+map: map,
+title:139
+});
+google.maps.event.addListener(marker139 , click, function() {
+infowindow139 .open(map, marker139 );
+}
+var contentString140 = ('Viladomat', ' ', '122', '\n', 'places lliures: ', 18, '\n', 'bicis disponibles: ', 8) ;
+var infowindow140 = new google.maps.InfoWindow({
+content: contentString140
+});
+var myLatLng140 = new google.maps.LatLng( 41.3806300 2.15614000 );
+var marker140 = new google.maps.Marker({
+position: myLatLng140 ,
+map: map,
+title:140
+});
+google.maps.event.addListener(marker140 , click, function() {
+infowindow140 .open(map, marker140 );
+}
+var infowindow141 = new google.maps.InfoWindow({
+content: contentString141
+});
+var myLatLng141 = new google.maps.LatLng( 41.4090200 2.19489600 );
+var marker141 = new google.maps.Marker({
+position: myLatLng141 ,
+map: map,
+title:141
+});
+google.maps.event.addListener(marker141 , click, function() {
+infowindow141 .open(map, marker141 );
+}
+var contentString142 = ('Sancho de &Aacute;vila', ' ', '130', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 18) ;
+var infowindow142 = new google.maps.InfoWindow({
+content: contentString142
+});
+var myLatLng142 = new google.maps.LatLng( 41.4005030 2.19251100 );
+var marker142 = new google.maps.Marker({
+position: myLatLng142 ,
+map: map,
+title:142
+});
+google.maps.event.addListener(marker142 , click, function() {
+infowindow142 .open(map, marker142 );
+}
+var contentString143 = ('Sancho de &Aacute;vila', ' ', '170', '\n', 'places lliures: ', 4, '\n', 'bicis disponibles: ', 23) ;
+var infowindow143 = new google.maps.InfoWindow({
+content: contentString143
+});
+var myLatLng143 = new google.maps.LatLng( 41.4032500 2.19606000 );
+var marker143 = new google.maps.Marker({
+position: myLatLng143 ,
+map: map,
+title:143
+});
+google.maps.event.addListener(marker143 , click, function() {
+infowindow143 .open(map, marker143 );
+}
+var contentString144 = ('Castella', ' ', '28', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 7) ;
+var infowindow144 = new google.maps.InfoWindow({
+content: contentString144
+});
+var myLatLng144 = new google.maps.LatLng( 41.4056200 2.19764000 );
+var marker144 = new google.maps.Marker({
+position: myLatLng144 ,
+map: map,
+title:144
+});
+google.maps.event.addListener(marker144 , click, function() {
+infowindow144 .open(map, marker144 );
+}
+var contentString145 = ('Pere IV', ' ', '301', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 13) ;
+var infowindow145 = new google.maps.InfoWindow({
+content: contentString145
+});
+var myLatLng145 = new google.maps.LatLng( 41.4098200 2.20290400 );
+var marker145 = new google.maps.Marker({
+position: myLatLng145 ,
+map: map,
+title:145
+});
+google.maps.event.addListener(marker145 , click, function() {
+infowindow145 .open(map, marker145 );
+}
+var contentString146 = ('Pere IV', ' ', '383', '\n', 'places lliures: ', 5, '\n', 'bicis disponibles: ', 22) ;
+var infowindow146 = new google.maps.InfoWindow({
+content: contentString146
+});
+var myLatLng146 = new google.maps.LatLng( 41.4124530 2.20484100 );
+var marker146 = new google.maps.Marker({
+position: myLatLng146 ,
+map: map,
+title:146
+});
+google.maps.event.addListener(marker146 , click, function() {
+infowindow146 .open(map, marker146 );
+}
+var contentString148 = ('Ronda Sant Pau', ' ', '79', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 6) ;
+var infowindow148 = new google.maps.InfoWindow({
+content: contentString148
+});
+var myLatLng148 = new google.maps.LatLng( 41.3784360 2.16332400 );
+var marker148 = new google.maps.Marker({
+position: myLatLng148 ,
+map: map,
+title:148
+});
+google.maps.event.addListener(marker148 , click, function() {
+infowindow148 .open(map, marker148 );
+}
+var contentString149 = ('Pujades', ' ', '55', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 15) ;
+var infowindow149 = new google.maps.InfoWindow({
+content: contentString149
+});
+var myLatLng149 = new google.maps.LatLng( 41.3959050 2.19295800 );
+var marker149 = new google.maps.Marker({
+position: myLatLng149 ,
+map: map,
+title:149
+});
+google.maps.event.addListener(marker149 , click, function() {
+infowindow149 .open(map, marker149 );
+}
+var contentString150 = ('Espronceda', ' ', '124', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 10) ;
+var infowindow150 = new google.maps.InfoWindow({
+content: contentString150
+});
+var myLatLng150 = new google.maps.LatLng( 41.4065490 2.20311200 );
+var marker150 = new google.maps.Marker({
+position: myLatLng150 ,
+map: map,
+title:150
+});
+google.maps.event.addListener(marker150 , click, function() {
+infowindow150 .open(map, marker150 );
+}
+var contentString151 = ('Pallars', ' ', '462', '\n', 'places lliures: ', 10, '\n', 'bicis disponibles: ', 14) ;
+var infowindow151 = new google.maps.InfoWindow({
+content: contentString151
+});
+var myLatLng151 = new google.maps.LatLng( 41.4006500 2.19719000 );
+var marker151 = new google.maps.Marker({
+position: myLatLng151 ,
+map: map,
+title:151
+});
+google.maps.event.addListener(marker151 , click, function() {
+infowindow151 .open(map, marker151 );
+}
+var contentString152 = ('Pujades', ' ', '121', '\n', 'places lliures: ', 10, '\n', 'bicis disponibles: ', 17) ;
+var infowindow152 = new google.maps.InfoWindow({
+content: contentString152
+});
+var myLatLng152 = new google.maps.LatLng( 41.3992500 2.19742100 );
+var marker152 = new google.maps.Marker({
+position: myLatLng152 ,
+map: map,
+title:152
+});
+google.maps.event.addListener(marker152 , click, function() {
+infowindow152 .open(map, marker152 );
+}
+var contentString153 = ('Pujades', ' ', '173', '\n', 'places lliures: ', 7, '\n', 'bicis disponibles: ', 20) ;
+var infowindow153 = new google.maps.InfoWindow({
+content: contentString153
+});
+var myLatLng153 = new google.maps.LatLng( 41.4017780 2.20076900 );
+var marker153 = new google.maps.Marker({
+position: myLatLng153 ,
+map: map,
+title:153
+});
+google.maps.event.addListener(marker153 , click, function() {
+infowindow153 .open(map, marker153 );
+}
+var contentString154 = ('Pujades', ' ', '191', '\n', 'places lliures: ', 19, '\n', 'bicis disponibles: ', 8) ;
+var infowindow154 = new google.maps.InfoWindow({
+content: contentString154
+});
+var myLatLng154 = new google.maps.LatLng( 41.4024540 2.20165600 );
+var marker154 = new google.maps.Marker({
+position: myLatLng154 ,
+map: map,
+title:154
+});
+google.maps.event.addListener(marker154 , click, function() {
+infowindow154 .open(map, marker154 );
+}
+var contentString155 = ('Pujades', ' ', '311', '\n', 'places lliures: ', 23, '\n', 'bicis disponibles: ', 10) ;
+var infowindow155 = new google.maps.InfoWindow({
+content: contentString155
+});
+var myLatLng155 = new google.maps.LatLng( 41.4069770 2.20760200 );
+var marker155 = new google.maps.Marker({
+position: myLatLng155 ,
+map: map,
+title:155
+});
+google.maps.event.addListener(marker155 , click, function() {
+infowindow155 .open(map, marker155 );
+}
+var contentString156 = ('Diagonal', ' ', '82', '\n', 'places lliures: ', 18, '\n', 'bicis disponibles: ', 9) ;
+var infowindow156 = new google.maps.InfoWindow({
+content: contentString156
+});
+var myLatLng156 = new google.maps.LatLng( 41.4089230 2.20855100 );
+var marker156 = new google.maps.Marker({
+position: myLatLng156 ,
+map: map,
+title:156
+});
+google.maps.event.addListener(marker156 , click, function() {
+infowindow156 .open(map, marker156 );
+}
+var contentString157 = ('C/Llull', ' ', '396', '\n', 'places lliures: ', 18, '\n', 'bicis disponibles: ', 9) ;
+var infowindow157 = new google.maps.InfoWindow({
+content: contentString157
+});
+var myLatLng157 = new google.maps.LatLng( 41.4116360 2.21633700 );
+var marker157 = new google.maps.Marker({
+position: myLatLng157 ,
+map: map,
+title:157
+});
+google.maps.event.addListener(marker157 , click, function() {
+infowindow157 .open(map, marker157 );
+}
+var contentString158 = ('Rambla de Prim', ' ', '1', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 5) ;
+var infowindow158 = new google.maps.InfoWindow({
+content: contentString158
+});
+var myLatLng158 = new google.maps.LatLng( 41.4116550 2.21874200 );
+var marker158 = new google.maps.Marker({
+position: myLatLng158 ,
+map: map,
+title:158
+});
+google.maps.event.addListener(marker158 , click, function() {
+infowindow158 .open(map, marker158 );
+}
+var infowindow159 = new google.maps.InfoWindow({
+content: contentString159
+});
+var myLatLng159 = new google.maps.LatLng( 41.4109160 2.21638100 );
+var marker159 = new google.maps.Marker({
+position: myLatLng159 ,
+map: map,
+title:159
+});
+google.maps.event.addListener(marker159 , click, function() {
+infowindow159 .open(map, marker159 );
+}
+var contentString160 = ('Avda. d&#039;Eduard Maristany', ' ', '1', '\n', 'places lliures: ', 5, '\n', 'bicis disponibles: ', 28) ;
+var infowindow160 = new google.maps.InfoWindow({
+content: contentString160
+});
+var myLatLng160 = new google.maps.LatLng( 41.4110260 2.21937700 );
+var marker160 = new google.maps.Marker({
+position: myLatLng160 ,
+map: map,
+title:160
+});
+google.maps.event.addListener(marker160 , click, function() {
+infowindow160 .open(map, marker160 );
+}
+var contentString161 = ('Ramon Turro', ' ', '91', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 10) ;
+var infowindow161 = new google.maps.InfoWindow({
+content: contentString161
+});
+var myLatLng161 = new google.maps.LatLng( 41.3950090 2.19630800 );
+var marker161 = new google.maps.Marker({
+position: myLatLng161 ,
+map: map,
+title:161
+});
+google.maps.event.addListener(marker161 , click, function() {
+infowindow161 .open(map, marker161 );
+}
+var contentString162 = ('Ramon Turro', ' ', '287', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 10) ;
+var infowindow162 = new google.maps.InfoWindow({
+content: contentString162
+});
+var myLatLng162 = new google.maps.LatLng( 41.4043670 2.20875200 );
+var marker162 = new google.maps.Marker({
+position: myLatLng162 ,
+map: map,
+title:162
+});
+google.maps.event.addListener(marker162 , click, function() {
+infowindow162 .open(map, marker162 );
+}
+var contentString163 = ('Avda. Icaria', ' ', '202', '\n', 'places lliures: ', 21, '\n', 'bicis disponibles: ', 5) ;
+var infowindow163 = new google.maps.InfoWindow({
+content: contentString163
+});
+var myLatLng163 = new google.maps.LatLng( 41.3942000 2.20077000 );
+var marker163 = new google.maps.Marker({
+position: myLatLng163 ,
+map: map,
+title:163
+});
+google.maps.event.addListener(marker163 , click, function() {
+infowindow163 .open(map, marker163 );
+}
+var contentString165 = ('Carrer del Doctor Trueta', ' ', '222', '\n', 'places lliures: ', 24, '\n', 'bicis disponibles: ', 3) ;
+var infowindow165 = new google.maps.InfoWindow({
+content: contentString165
+});
+var myLatLng165 = new google.maps.LatLng( 41.3991960 2.20425300 );
+var marker165 = new google.maps.Marker({
+position: myLatLng165 ,
+map: map,
+title:165
+});
+google.maps.event.addListener(marker165 , click, function() {
+infowindow165 .open(map, marker165 );
+}
+var contentString167 = ('Passeig de Taulat', ' ', '188', '\n', 'places lliures: ', 21, '\n', 'bicis disponibles: ', 5) ;
+var infowindow167 = new google.maps.InfoWindow({
+content: contentString167
+});
+var myLatLng167 = new google.maps.LatLng( 41.4034460 2.21116600 );
+var marker167 = new google.maps.Marker({
+position: myLatLng167 ,
+map: map,
+title:167
+});
+google.maps.event.addListener(marker167 , click, function() {
+infowindow167 .open(map, marker167 );
+}
+var contentString168 = ('Passeig de Taulat', ' ', '238', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 6) ;
+var infowindow168 = new google.maps.InfoWindow({
+content: contentString168
+});
+var myLatLng168 = new google.maps.LatLng( 41.4052160 2.21351800 );
+var marker168 = new google.maps.Marker({
+position: myLatLng168 ,
+map: map,
+title:168
+});
+google.maps.event.addListener(marker168 , click, function() {
+infowindow168 .open(map, marker168 );
+}
+var infowindow169 = new google.maps.InfoWindow({
+content: contentString169
+});
+var myLatLng169 = new google.maps.LatLng( 41.3898960 2.20005500 );
+var marker169 = new google.maps.Marker({
+position: myLatLng169 ,
+map: map,
+title:169
+});
+google.maps.event.addListener(marker169 , click, function() {
+infowindow169 .open(map, marker169 );
+}
+var contentString170 = ('Avda. Litoral', ' ', '40', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 4) ;
+var infowindow170 = new google.maps.InfoWindow({
+content: contentString170
+});
+var myLatLng170 = new google.maps.LatLng( 41.3897320 2.19993400 );
+var marker170 = new google.maps.Marker({
+position: myLatLng170 ,
+map: map,
+title:170
+});
+google.maps.event.addListener(marker170 , click, function() {
+infowindow170 .open(map, marker170 );
+}
+var contentString172 = ('Passeig Mar&iacute;tim de la Nova Ic&agrave;ria', ' ', '83', '\n', 'places lliures: ', 9, '\n', 'bicis disponibles: ', 18) ;
+var infowindow172 = new google.maps.InfoWindow({
+content: contentString172
+});
+var myLatLng172 = new google.maps.LatLng( 41.3918310 2.20343600 );
+var marker172 = new google.maps.Marker({
+position: myLatLng172 ,
+map: map,
+title:172
+});
+google.maps.event.addListener(marker172 , click, function() {
+infowindow172 .open(map, marker172 );
+}
+var infowindow173 = new google.maps.InfoWindow({
+content: contentString173
+});
+var myLatLng173 = new google.maps.LatLng( 41.3980270 2.20898200 );
+var marker173 = new google.maps.Marker({
+position: myLatLng173 ,
+map: map,
+title:173
+});
+google.maps.event.addListener(marker173 , click, function() {
+infowindow173 .open(map, marker173 );
+}
+var contentString174 = ('Passeig de Garcia F&agrave;ria', ' ', '21', '\n', 'places lliures: ', 11, '\n', 'bicis disponibles: ', 16) ;
+var infowindow174 = new google.maps.InfoWindow({
+content: contentString174
+});
+var myLatLng174 = new google.maps.LatLng( 41.4006100 2.21046100 );
+var marker174 = new google.maps.Marker({
+position: myLatLng174 ,
+map: map,
+title:174
+});
+google.maps.event.addListener(marker174 , click, function() {
+infowindow174 .open(map, marker174 );
+}
+var contentString175 = ('Llull / Proven&ccedil;als', ' ', '309', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 4) ;
+var infowindow175 = new google.maps.InfoWindow({
+content: contentString175
+});
+var myLatLng175 = new google.maps.LatLng( 41.4066600 2.20956000 );
+var marker175 = new google.maps.Marker({
+position: myLatLng175 ,
+map: map,
+title:175
+});
+google.maps.event.addListener(marker175 , click, function() {
+infowindow175 .open(map, marker175 );
+}
+var infowindow176 = new google.maps.InfoWindow({
+content: contentString176
+});
+var myLatLng176 = new google.maps.LatLng( 41.4025410 2.21264100 );
+var marker176 = new google.maps.Marker({
+position: myLatLng176 ,
+map: map,
+title:176
+});
+google.maps.event.addListener(marker176 , click, function() {
+infowindow176 .open(map, marker176 );
+}
+var contentString178 = ('Passeig de Garcia F&agrave;ria', ' ', '85', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 19) ;
+var infowindow178 = new google.maps.InfoWindow({
+content: contentString178
+});
+var myLatLng178 = new google.maps.LatLng( 41.4053890 2.21621200 );
+var marker178 = new google.maps.Marker({
+position: myLatLng178 ,
+map: map,
+title:178
+});
+google.maps.event.addListener(marker178 , click, function() {
+infowindow178 .open(map, marker178 );
+}
+var contentString180 = ('Gran Via', ' ', '181', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 14) ;
+var infowindow180 = new google.maps.InfoWindow({
+content: contentString180
+});
+var myLatLng180 = new google.maps.LatLng( 41.3681770 2.13943900 );
+var marker180 = new google.maps.Marker({
+position: myLatLng180 ,
+map: map,
+title:180
+});
+google.maps.event.addListener(marker180 , click, function() {
+infowindow180 .open(map, marker180 );
+}
+var contentString181 = ('Gran Via', ' ', '180', '\n', 'places lliures: ', 9, '\n', 'bicis disponibles: ', 16) ;
+var infowindow181 = new google.maps.InfoWindow({
+content: contentString181
+});
+var myLatLng181 = new google.maps.LatLng( 41.3683920 2.13972600 );
+var marker181 = new google.maps.Marker({
+position: myLatLng181 ,
+map: map,
+title:181
+});
+google.maps.event.addListener(marker181 , click, function() {
+infowindow181 .open(map, marker181 );
+}
+var contentString182 = ('Gran Via', ' ', '273', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 4) ;
+var infowindow182 = new google.maps.InfoWindow({
+content: contentString182
+});
+var myLatLng182 = new google.maps.LatLng( 41.3714550 2.14388200 );
+var marker182 = new google.maps.Marker({
+position: myLatLng182 ,
+map: map,
+title:182
+});
+google.maps.event.addListener(marker182 , click, function() {
+infowindow182 .open(map, marker182 );
+}
+var contentString183 = ('Gav&agrave;', ' ', '1', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 13) ;
+var infowindow183 = new google.maps.InfoWindow({
+content: contentString183
+});
+var myLatLng183 = new google.maps.LatLng( 41.3723380 2.14187500 );
+var marker183 = new google.maps.Marker({
+position: myLatLng183 ,
+map: map,
+title:183
+});
+google.maps.event.addListener(marker183 , click, function() {
+infowindow183 .open(map, marker183 );
+}
+var contentString184 = ('Quetzal', ' ', '22', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 19) ;
+var infowindow184 = new google.maps.InfoWindow({
+content: contentString184
+});
+var myLatLng184 = new google.maps.LatLng( 41.3675040 2.13408800 );
+var marker184 = new google.maps.Marker({
+position: myLatLng184 ,
+map: map,
+title:184
+});
+google.maps.event.addListener(marker184 , click, function() {
+infowindow184 .open(map, marker184 );
+}
+var infowindow185 = new google.maps.InfoWindow({
+content: contentString185
+});
+var myLatLng185 = new google.maps.LatLng( 41.3704600 2.13899400 );
+var marker185 = new google.maps.Marker({
+position: myLatLng185 ,
+map: map,
+title:185
+});
+google.maps.event.addListener(marker185 , click, function() {
+infowindow185 .open(map, marker185 );
+}
+var contentString186 = ('Consell de Cent', ' ', '6', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 7) ;
+var infowindow186 = new google.maps.InfoWindow({
+content: contentString186
+});
+var myLatLng186 = new google.maps.LatLng( 41.3755710 2.14381200 );
+var marker186 = new google.maps.Marker({
+position: myLatLng186 ,
+map: map,
+title:186
+});
+google.maps.event.addListener(marker186 , click, function() {
+infowindow186 .open(map, marker186 );
+}
+var infowindow187 = new google.maps.InfoWindow({
+content: contentString187
+});
+var myLatLng187 = new google.maps.LatLng( 41.3768580 2.16981100 );
+var marker187 = new google.maps.Marker({
+position: myLatLng187 ,
+map: map,
+title:187
+});
+google.maps.event.addListener(marker187 , click, function() {
+infowindow187 .open(map, marker187 );
+}
+var infowindow189 = new google.maps.InfoWindow({
+content: contentString189
+});
+var myLatLng189 = new google.maps.LatLng( 41.3969180 2.16616300 );
+var marker189 = new google.maps.Marker({
+position: myLatLng189 ,
+map: map,
+title:189
+});
+google.maps.event.addListener(marker189 , click, function() {
+infowindow189 .open(map, marker189 );
+}
+var infowindow190 = new google.maps.InfoWindow({
+content: contentString190
+});
+var myLatLng190 = new google.maps.LatLng( 41.3960600 2.20780300 );
+var marker190 = new google.maps.Marker({
+position: myLatLng190 ,
+map: map,
+title:190
+});
+google.maps.event.addListener(marker190 , click, function() {
+infowindow190 .open(map, marker190 );
+}
+var contentString191 = ('Rocafort', ' ', '167', '\n', 'places lliures: ', 21, '\n', 'bicis disponibles: ', 4) ;
+var infowindow191 = new google.maps.InfoWindow({
+content: contentString191
+});
+var myLatLng191 = new google.maps.LatLng( 41.3825640 2.14909400 );
+var marker191 = new google.maps.Marker({
+position: myLatLng191 ,
+map: map,
+title:191
+});
+google.maps.event.addListener(marker191 , click, function() {
+infowindow191 .open(map, marker191 );
+}
+var contentString192 = ('Joan G&uuml;ell', ' ', '85', '\n', 'places lliures: ', 5, '\n', 'bicis disponibles: ', 22) ;
+var infowindow192 = new google.maps.InfoWindow({
+content: contentString192
+});
+var myLatLng192 = new google.maps.LatLng( 41.3798140 2.13280200 );
+var marker192 = new google.maps.Marker({
+position: myLatLng192 ,
+map: map,
+title:192
+});
+google.maps.event.addListener(marker192 , click, function() {
+infowindow192 .open(map, marker192 );
+}
+var infowindow193 = new google.maps.InfoWindow({
+content: contentString193
+});
+var myLatLng193 = new google.maps.LatLng( 41.3813110 2.12891200 );
+var marker193 = new google.maps.Marker({
+position: myLatLng193 ,
+map: map,
+title:193
+});
+google.maps.event.addListener(marker193 , click, function() {
+infowindow193 .open(map, marker193 );
+}
+var contentString194 = ('Joan G&uuml;ell', ' ', '128', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 5) ;
+var infowindow194 = new google.maps.InfoWindow({
+content: contentString194
+});
+var myLatLng194 = new google.maps.LatLng( 41.3822580 2.13165200 );
+var marker194 = new google.maps.Marker({
+position: myLatLng194 ,
+map: map,
+title:194
+});
+google.maps.event.addListener(marker194 , click, function() {
+infowindow194 .open(map, marker194 );
+}
+var infowindow195 = new google.maps.InfoWindow({
+content: contentString195
+});
+var myLatLng195 = new google.maps.LatLng( 41.3823400 2.13618600 );
+var marker195 = new google.maps.Marker({
+position: myLatLng195 ,
+map: map,
+title:195
+});
+google.maps.event.addListener(marker195 , click, function() {
+infowindow195 .open(map, marker195 );
+}
+var infowindow196 = new google.maps.InfoWindow({
+content: contentString196
+});
+var myLatLng196 = new google.maps.LatLng( 41.3845220 2.13469800 );
+var marker196 = new google.maps.Marker({
+position: myLatLng196 ,
+map: map,
+title:196
+});
+google.maps.event.addListener(marker196 , click, function() {
+infowindow196 .open(map, marker196 );
+}
+var infowindow197 = new google.maps.InfoWindow({
+content: contentString197
+});
+var myLatLng197 = new google.maps.LatLng( 41.3863980 2.13982100 );
+var marker197 = new google.maps.Marker({
+position: myLatLng197 ,
+map: map,
+title:197
+});
+google.maps.event.addListener(marker197 , click, function() {
+infowindow197 .open(map, marker197 );
+}
+var infowindow198 = new google.maps.InfoWindow({
+content: contentString198
+});
+var myLatLng198 = new google.maps.LatLng( 41.3851200 2.13328200 );
+var marker198 = new google.maps.Marker({
+position: myLatLng198 ,
+map: map,
+title:198
+});
+google.maps.event.addListener(marker198 , click, function() {
+infowindow198 .open(map, marker198 );
+}
+var contentString199 = ('Mej&iacute;a Lequerica', ' ', '2', '\n', 'places lliures: ', 18, '\n', 'bicis disponibles: ', 9) ;
+var infowindow199 = new google.maps.InfoWindow({
+content: contentString199
+});
+var myLatLng199 = new google.maps.LatLng( 41.3818200 2.12693300 );
+var marker199 = new google.maps.Marker({
+position: myLatLng199 ,
+map: map,
+title:199
+});
+google.maps.event.addListener(marker199 , click, function() {
+infowindow199 .open(map, marker199 );
+}
+var contentString200 = ('Can bruixa', ' ', '14', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 10) ;
+var infowindow200 = new google.maps.InfoWindow({
+content: contentString200
+});
+var myLatLng200 = new google.maps.LatLng( 41.3837120 2.13137700 );
+var marker200 = new google.maps.Marker({
+position: myLatLng200 ,
+map: map,
+title:200
+});
+google.maps.event.addListener(marker200 , click, function() {
+infowindow200 .open(map, marker200 );
+}
+var contentString201 = ('Deu i Mata', ' ', '56', '\n', 'places lliures: ', 24, '\n', 'bicis disponibles: ', 8) ;
+var infowindow201 = new google.maps.InfoWindow({
+content: contentString201
+});
+var myLatLng201 = new google.maps.LatLng( 41.3884550 2.13582600 );
+var marker201 = new google.maps.Marker({
+position: myLatLng201 ,
+map: map,
+title:201
+});
+google.maps.event.addListener(marker201 , click, function() {
+infowindow201 .open(map, marker201 );
+}
+var contentString202 = ('Carrer de les Corts', ' ', '20', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 15) ;
+var infowindow202 = new google.maps.InfoWindow({
+content: contentString202
+});
+var myLatLng202 = new google.maps.LatLng( 41.3853310 2.12873700 );
+var marker202 = new google.maps.Marker({
+position: myLatLng202 ,
+map: map,
+title:202
+});
+google.maps.event.addListener(marker202 , click, function() {
+infowindow202 .open(map, marker202 );
+}
+var contentString203 = ('Avda. Diagonal', ' ', '664', '\n', 'places lliures: ', 11, '\n', 'bicis disponibles: ', 22) ;
+var infowindow203 = new google.maps.InfoWindow({
+content: contentString203
+});
+var myLatLng203 = new google.maps.LatLng( 41.3887420 2.12850300 );
+var marker203 = new google.maps.Marker({
+position: myLatLng203 ,
+map: map,
+title:203
+});
+google.maps.event.addListener(marker203 , click, function() {
+infowindow203 .open(map, marker203 );
+}
+var contentString204 = ('Avda. Diagonal', ' ', '668', '\n', 'places lliures: ', 18, '\n', 'bicis disponibles: ', 13) ;
+var infowindow204 = new google.maps.InfoWindow({
+content: contentString204
+});
+var myLatLng204 = new google.maps.LatLng( 41.3880110 2.12559300 );
+var marker204 = new google.maps.Marker({
+position: myLatLng204 ,
+map: map,
+title:204
+});
+google.maps.event.addListener(marker204 , click, function() {
+infowindow204 .open(map, marker204 );
+}
+var contentString205 = ('Europa ', ' ', '25', '\n', 'places lliures: ', 27, '\n', 'bicis disponibles: ', 5) ;
+var infowindow205 = new google.maps.InfoWindow({
+content: contentString205
+});
+var myLatLng205 = new google.maps.LatLng( 41.3874650 2.13083800 );
+var marker205 = new google.maps.Marker({
+position: myLatLng205 ,
+map: map,
+title:205
+});
+google.maps.event.addListener(marker205 , click, function() {
+infowindow205 .open(map, marker205 );
+}
+var contentString206 = ('Avda. Diagonal', ' ', '650', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 19) ;
+var infowindow206 = new google.maps.InfoWindow({
+content: contentString206
+});
+var myLatLng206 = new google.maps.LatLng( 41.3898450 2.13284000 );
+var marker206 = new google.maps.Marker({
+position: myLatLng206 ,
+map: map,
+title:206
+});
+google.maps.event.addListener(marker206 , click, function() {
+infowindow206 .open(map, marker206 );
+}
+var contentString207 = ('Avda. Diagonal', ' ', '634', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 9) ;
+var infowindow207 = new google.maps.InfoWindow({
+content: contentString207
+});
+var myLatLng207 = new google.maps.LatLng( 41.3908280 2.13666500 );
+var marker207 = new google.maps.Marker({
+position: myLatLng207 ,
+map: map,
+title:207
+});
+google.maps.event.addListener(marker207 , click, function() {
+infowindow207 .open(map, marker207 );
+}
+var contentString208 = ('Avda. Diagonal', ' ', '630', '\n', 'places lliures: ', 27, '\n', 'bicis disponibles: ', 5) ;
+var infowindow208 = new google.maps.InfoWindow({
+content: contentString208
+});
+var myLatLng208 = new google.maps.LatLng( 41.3914510 2.13911600 );
+var marker208 = new google.maps.Marker({
+position: myLatLng208 ,
+map: map,
+title:208
+});
+google.maps.event.addListener(marker208 , click, function() {
+infowindow208 .open(map, marker208 );
+}
+var infowindow209 = new google.maps.InfoWindow({
+content: contentString209
+});
+var myLatLng209 = new google.maps.LatLng( 41.3857550 2.16100400 );
+var marker209 = new google.maps.Marker({
+position: myLatLng209 ,
+map: map,
+title:209
+});
+google.maps.event.addListener(marker209 , click, function() {
+infowindow209 .open(map, marker209 );
+}
+var infowindow210 = new google.maps.InfoWindow({
+content: contentString210
+});
+var myLatLng210 = new google.maps.LatLng( 41.3745300 2.14235600 );
+var marker210 = new google.maps.Marker({
+position: myLatLng210 ,
+map: map,
+title:210
+});
+google.maps.event.addListener(marker210 , click, function() {
+infowindow210 .open(map, marker210 );
+}
+var contentString211 = ('Sancho de &Aacute;vila', ' ', '60', '\n', 'places lliures: ', 5, '\n', 'bicis disponibles: ', 28) ;
+var infowindow211 = new google.maps.InfoWindow({
+content: contentString211
+});
+var myLatLng211 = new google.maps.LatLng( 41.3988480 2.19029100 );
+var marker211 = new google.maps.Marker({
+position: myLatLng211 ,
+map: map,
+title:211
+});
+google.maps.event.addListener(marker211 , click, function() {
+infowindow211 .open(map, marker211 );
+}
+var contentString212 = ('Numancia', ' ', '212', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 7) ;
+var infowindow212 = new google.maps.InfoWindow({
+content: contentString212
+});
+var myLatLng212 = new google.maps.LatLng( 41.3921730 2.13031900 );
+var marker212 = new google.maps.Marker({
+position: myLatLng212 ,
+map: map,
+title:212
+});
+google.maps.event.addListener(marker212 , click, function() {
+infowindow212 .open(map, marker212 );
+}
+var contentString213 = ('Doctor Fleming', ' ', '9', '\n', 'places lliures: ', 28, '\n', 'bicis disponibles: ', 5) ;
+var infowindow213 = new google.maps.InfoWindow({
+content: contentString213
+});
+var myLatLng213 = new google.maps.LatLng( 41.3924850 2.13558600 );
+var marker213 = new google.maps.Marker({
+position: myLatLng213 ,
+map: map,
+title:213
+});
+google.maps.event.addListener(marker213 , click, function() {
+infowindow213 .open(map, marker213 );
+}
+var infowindow214 = new google.maps.InfoWindow({
+content: contentString214
+});
+var myLatLng214 = new google.maps.LatLng( 41.3939760 2.13496000 );
+var marker214 = new google.maps.Marker({
+position: myLatLng214 ,
+map: map,
+title:214
+});
+google.maps.event.addListener(marker214 , click, function() {
+infowindow214 .open(map, marker214 );
+}
+var contentString215 = ('Carrer de Francesc P&eacute;rez Cabrero', ' ', '6', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 16) ;
+var infowindow215 = new google.maps.InfoWindow({
+content: contentString215
+});
+var myLatLng215 = new google.maps.LatLng( 41.3945270 2.13863700 );
+var marker215 = new google.maps.Marker({
+position: myLatLng215 ,
+map: map,
+title:215
+});
+google.maps.event.addListener(marker215 , click, function() {
+infowindow215 .open(map, marker215 );
+}
+var contentString216 = ('Madrazo', ' ', '131', '\n', 'places lliures: ', 23, '\n', 'bicis disponibles: ', 4) ;
+var infowindow216 = new google.maps.InfoWindow({
+content: contentString216
+});
+var myLatLng216 = new google.maps.LatLng( 41.3968090 2.14453400 );
+var marker216 = new google.maps.Marker({
+position: myLatLng216 ,
+map: map,
+title:216
+});
+google.maps.event.addListener(marker216 , click, function() {
+infowindow216 .open(map, marker216 );
+}
+var contentString217 = ('Rector Ubach', ' ', '24', '\n', 'places lliures: ', 9, '\n', 'bicis disponibles: ', 16) ;
+var infowindow217 = new google.maps.InfoWindow({
+content: contentString217
+});
+var myLatLng217 = new google.maps.LatLng( 41.3984630 2.14392400 );
+var marker217 = new google.maps.Marker({
+position: myLatLng217 ,
+map: map,
+title:217
+});
+google.maps.event.addListener(marker217 , click, function() {
+infowindow217 .open(map, marker217 );
+}
+var contentString218 = ('Consell de Cent', ' ', '566', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 10) ;
+var infowindow218 = new google.maps.InfoWindow({
+content: contentString218
+});
+var myLatLng218 = new google.maps.LatLng( 41.4041140 2.18320300 );
+var marker218 = new google.maps.Marker({
+position: myLatLng218 ,
+map: map,
+title:218
+});
+google.maps.event.addListener(marker218 , click, function() {
+infowindow218 .open(map, marker218 );
+}
+var contentString219 = ('Carre Laforja', ' ', '74', '\n', 'places lliures: ', 7, '\n', 'bicis disponibles: ', 19) ;
+var infowindow219 = new google.maps.InfoWindow({
+content: contentString219
+});
+var myLatLng219 = new google.maps.LatLng( 41.3978120 2.14758500 );
+var marker219 = new google.maps.Marker({
+position: myLatLng219 ,
+map: map,
+title:219
+});
+google.maps.event.addListener(marker219 , click, function() {
+infowindow219 .open(map, marker219 );
+}
+var contentString221 = ('Gran de Gr&agrave;cia', ' ', '155', '\n', 'places lliures: ', 3, '\n', 'bicis disponibles: ', 24) ;
+var infowindow221 = new google.maps.InfoWindow({
+content: contentString221
+});
+var myLatLng221 = new google.maps.LatLng( 41.4025350 2.15251900 );
+var marker221 = new google.maps.Marker({
+position: myLatLng221 ,
+map: map,
+title:221
+});
+google.maps.event.addListener(marker221 , click, function() {
+infowindow221 .open(map, marker221 );
+}
+var infowindow222 = new google.maps.InfoWindow({
+content: contentString222
+});
+var myLatLng222 = new google.maps.LatLng( 41.4012400 2.15748300 );
+var marker222 = new google.maps.Marker({
+position: myLatLng222 ,
+map: map,
+title:222
+});
+google.maps.event.addListener(marker222 , click, function() {
+infowindow222 .open(map, marker222 );
+}
+var contentString223 = ('Carrer de Bonavista', ' ', '14', '\n', 'places lliures: ', 23, '\n', 'bicis disponibles: ', 3) ;
+var infowindow223 = new google.maps.InfoWindow({
+content: contentString223
+});
+var myLatLng223 = new google.maps.LatLng( 41.3983110 2.15986500 );
+var marker223 = new google.maps.Marker({
+position: myLatLng223 ,
+map: map,
+title:223
+});
+google.maps.event.addListener(marker223 , click, function() {
+infowindow223 .open(map, marker223 );
+}
+var infowindow224 = new google.maps.InfoWindow({
+content: contentString224
+});
+var myLatLng224 = new google.maps.LatLng( 41.4001100 2.16644000 );
+var marker224 = new google.maps.Marker({
+position: myLatLng224 ,
+map: map,
+title:224
+});
+google.maps.event.addListener(marker224 , click, function() {
+infowindow224 .open(map, marker224 );
+}
+var contentString225 = ('Mallorca', ' ', '84', '\n', 'places lliures: ', 11, '\n', 'bicis disponibles: ', 16) ;
+var infowindow225 = new google.maps.InfoWindow({
+content: contentString225
+});
+var myLatLng225 = new google.maps.LatLng( 41.3848200 2.15057000 );
+var marker225 = new google.maps.Marker({
+position: myLatLng225 ,
+map: map,
+title:225
+});
+google.maps.event.addListener(marker225 , click, function() {
+infowindow225 .open(map, marker225 );
+}
+var contentString226 = ('Montmany', ' ', '1', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 8) ;
+var infowindow226 = new google.maps.InfoWindow({
+content: contentString226
+});
+var myLatLng226 = new google.maps.LatLng( 41.4034650 2.16109600 );
+var marker226 = new google.maps.Marker({
+position: myLatLng226 ,
+map: map,
+title:226
+});
+google.maps.event.addListener(marker226 , click, function() {
+infowindow226 .open(map, marker226 );
+}
+var infowindow227 = new google.maps.InfoWindow({
+content: contentString227
+});
+var myLatLng227 = new google.maps.LatLng( 41.4078370 2.15867800 );
+var marker227 = new google.maps.Marker({
+position: myLatLng227 ,
+map: map,
+title:227
+});
+google.maps.event.addListener(marker227 , click, function() {
+infowindow227 .open(map, marker227 );
+}
+var contentString228 = ('Pl. Del Nord', ' ', '5', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 14) ;
+var infowindow228 = new google.maps.InfoWindow({
+content: contentString228
+});
+var myLatLng228 = new google.maps.LatLng( 41.4069400 2.15579400 );
+var marker228 = new google.maps.Marker({
+position: myLatLng228 ,
+map: map,
+title:228
+});
+google.maps.event.addListener(marker228 , click, function() {
+infowindow228 .open(map, marker228 );
+}
+var contentString229 = ('Carrer de la Santacreu', ' ', '2', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 4) ;
+var infowindow229 = new google.maps.InfoWindow({
+content: contentString229
+});
+var myLatLng229 = new google.maps.LatLng( 41.4051070 2.15687400 );
+var marker229 = new google.maps.Marker({
+position: myLatLng229 ,
+map: map,
+title:229
+});
+google.maps.event.addListener(marker229 , click, function() {
+infowindow229 .open(map, marker229 );
+}
+var infowindow231 = new google.maps.InfoWindow({
+content: contentString231
+});
+var myLatLng231 = new google.maps.LatLng( 41.4091150 2.16327000 );
+var marker231 = new google.maps.Marker({
+position: myLatLng231 ,
+map: map,
+title:231
+});
+google.maps.event.addListener(marker231 , click, function() {
+infowindow231 .open(map, marker231 );
+}
+var contentString232 = ('Vil&agrave; i Vil&agrave;', ' ', '45', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 8) ;
+var infowindow232 = new google.maps.InfoWindow({
+content: contentString232
+});
+var myLatLng232 = new google.maps.LatLng( 41.3735090 2.17100200 );
+var marker232 = new google.maps.Marker({
+position: myLatLng232 ,
+map: map,
+title:232
+});
+google.maps.event.addListener(marker232 , click, function() {
+infowindow232 .open(map, marker232 );
+}
+var infowindow233 = new google.maps.InfoWindow({
+content: contentString233
+});
+var myLatLng233 = new google.maps.LatLng( 41.3719650 2.16687100 );
+var marker233 = new google.maps.Marker({
+position: myLatLng233 ,
+map: map,
+title:233
+});
+google.maps.event.addListener(marker233 , click, function() {
+infowindow233 .open(map, marker233 );
+}
+var contentString234 = ('Passeig de l&#039;Exposici&oacute;', ' ', '30', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 5) ;
+var infowindow234 = new google.maps.InfoWindow({
+content: contentString234
+});
+var myLatLng234 = new google.maps.LatLng( 41.3715150 2.16216600 );
+var marker234 = new google.maps.Marker({
+position: myLatLng234 ,
+map: map,
+title:234
+});
+google.maps.event.addListener(marker234 , click, function() {
+infowindow234 .open(map, marker234 );
+}
+var infowindow235 = new google.maps.InfoWindow({
+content: contentString235
+});
+var myLatLng235 = new google.maps.LatLng( 41.3737640 2.16163200 );
+var marker235 = new google.maps.Marker({
+position: myLatLng235 ,
+map: map,
+title:235
+});
+google.maps.event.addListener(marker235 , click, function() {
+infowindow235 .open(map, marker235 );
+}
+var contentString236 = ('Carrer de la Fran&ccedil;a Xica', ' ', '42', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 16) ;
+var infowindow236 = new google.maps.InfoWindow({
+content: contentString236
+});
+var myLatLng236 = new google.maps.LatLng( 41.3721620 2.15655400 );
+var marker236 = new google.maps.Marker({
+position: myLatLng236 ,
+map: map,
+title:236
+});
+google.maps.event.addListener(marker236 , click, function() {
+infowindow236 .open(map, marker236 );
+}
+var contentString237 = ('Rius i Taulet', ' ', '4', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 10) ;
+var infowindow237 = new google.maps.InfoWindow({
+content: contentString237
+});
+var myLatLng237 = new google.maps.LatLng( 41.3728910 2.15447100 );
+var marker237 = new google.maps.Marker({
+position: myLatLng237 ,
+map: map,
+title:237
+});
+google.maps.event.addListener(marker237 , click, function() {
+infowindow237 .open(map, marker237 );
+}
+var infowindow238 = new google.maps.InfoWindow({
+content: contentString238
+});
+var myLatLng238 = new google.maps.LatLng( 41.4156840 2.19098600 );
+var marker238 = new google.maps.Marker({
+position: myLatLng238 ,
+map: map,
+title:238
+});
+google.maps.event.addListener(marker238 , click, function() {
+infowindow238 .open(map, marker238 );
+}
+var contentString239 = ('Ind&uacute;stria', ' ', '344', '\n', 'places lliures: ', 18, '\n', 'bicis disponibles: ', 9) ;
+var infowindow239 = new google.maps.InfoWindow({
+content: contentString239
+});
+var myLatLng239 = new google.maps.LatLng( 41.4173150 2.18471200 );
+var marker239 = new google.maps.Marker({
+position: myLatLng239 ,
+map: map,
+title:239
+});
+google.maps.event.addListener(marker239 , click, function() {
+infowindow239 .open(map, marker239 );
+}
+var contentString240 = ('Josep Estivill', ' ', '32', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 13) ;
+var infowindow240 = new google.maps.InfoWindow({
+content: contentString240
+});
+var myLatLng240 = new google.maps.LatLng( 41.4177630 2.18755800 );
+var marker240 = new google.maps.Marker({
+position: myLatLng240 ,
+map: map,
+title:240
+});
+google.maps.event.addListener(marker240 , click, function() {
+infowindow240 .open(map, marker240 );
+}
+var contentString245 = ('Juan de Garay', ' ', '116', '\n', 'places lliures: ', 3, '\n', 'bicis disponibles: ', 30) ;
+var infowindow245 = new google.maps.InfoWindow({
+content: contentString245
+});
+var myLatLng245 = new google.maps.LatLng( 41.4225610 2.18573400 );
+var marker245 = new google.maps.Marker({
+position: myLatLng245 ,
+map: map,
+title:245
+});
+google.maps.event.addListener(marker245 , click, function() {
+infowindow245 .open(map, marker245 );
+}
+var contentString247 = ('Pal&egrave;ncia', ' ', '31', '\n', 'places lliures: ', 7, '\n', 'bicis disponibles: ', 20) ;
+var infowindow247 = new google.maps.InfoWindow({
+content: contentString247
+});
+var myLatLng247 = new google.maps.LatLng( 41.4182080 2.19037400 );
+var marker247 = new google.maps.Marker({
+position: myLatLng247 ,
+map: map,
+title:247
+});
+google.maps.event.addListener(marker247 , click, function() {
+infowindow247 .open(map, marker247 );
+}
+var contentString248 = ('A&ccedil;ores', ' ', '1', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 6) ;
+var infowindow248 = new google.maps.InfoWindow({
+content: contentString248
+});
+var myLatLng248 = new google.maps.LatLng( 41.4252160 2.18899700 );
+var marker248 = new google.maps.Marker({
+position: myLatLng248 ,
+map: map,
+title:248
+});
+google.maps.event.addListener(marker248 , click, function() {
+infowindow248 .open(map, marker248 );
+}
+var contentString249 = ('Portugal', ' ', '12', '\n', 'places lliures: ', 18, '\n', 'bicis disponibles: ', 9) ;
+var infowindow249 = new google.maps.InfoWindow({
+content: contentString249
+});
+var myLatLng249 = new google.maps.LatLng( 41.4262480 2.19013200 );
+var marker249 = new google.maps.Marker({
+position: myLatLng249 ,
+map: map,
+title:249
+});
+google.maps.event.addListener(marker249 , click, function() {
+infowindow249 .open(map, marker249 );
+}
+var contentString250 = ('Cardenal Tedeschini', ' ', '13', '\n', 'places lliures: ', 6, '\n', 'bicis disponibles: ', 24) ;
+var infowindow250 = new google.maps.InfoWindow({
+content: contentString250
+});
+var myLatLng250 = new google.maps.LatLng( 41.4254050 2.18522600 );
+var marker250 = new google.maps.Marker({
+position: myLatLng250 ,
+map: map,
+title:250
+});
+google.maps.event.addListener(marker250 , click, function() {
+infowindow250 .open(map, marker250 );
+}
+var infowindow251 = new google.maps.InfoWindow({
+content: contentString251
+});
+var myLatLng251 = new google.maps.LatLng( 41.4281840 2.19340200 );
+var marker251 = new google.maps.Marker({
+position: myLatLng251 ,
+map: map,
+title:251
+});
+google.maps.event.addListener(marker251 , click, function() {
+infowindow251 .open(map, marker251 );
+}
+var infowindow252 = new google.maps.InfoWindow({
+content: contentString252
+});
+var myLatLng252 = new google.maps.LatLng( 41.4299770 2.19182100 );
+var marker252 = new google.maps.Marker({
+position: myLatLng252 ,
+map: map,
+title:252
+});
+google.maps.event.addListener(marker252 , click, function() {
+infowindow252 .open(map, marker252 );
+}
+var contentString253 = ('Gran de Sant Andreu', ' ', '93', '\n', 'places lliures: ', 27, '\n', 'bicis disponibles: ', 6) ;
+var infowindow253 = new google.maps.InfoWindow({
+content: contentString253
+});
+var myLatLng253 = new google.maps.LatLng( 41.4303430 2.18958100 );
+var marker253 = new google.maps.Marker({
+position: myLatLng253 ,
+map: map,
+title:253
+});
+google.maps.event.addListener(marker253 , click, function() {
+infowindow253 .open(map, marker253 );
+}
+var infowindow254 = new google.maps.InfoWindow({
+content: contentString254
+});
+var myLatLng254 = new google.maps.LatLng( 41.4311830 2.18585200 );
+var marker254 = new google.maps.Marker({
+position: myLatLng254 ,
+map: map,
+title:254
+});
+google.maps.event.addListener(marker254 , click, function() {
+infowindow254 .open(map, marker254 );
+}
+var contentString255 = ('Malats', ' ', '28', '\n', 'places lliures: ', 9, '\n', 'bicis disponibles: ', 18) ;
+var infowindow255 = new google.maps.InfoWindow({
+content: contentString255
+});
+var myLatLng255 = new google.maps.LatLng( 41.4359980 2.18952400 );
+var marker255 = new google.maps.Marker({
+position: myLatLng255 ,
+map: map,
+title:255
+});
+google.maps.event.addListener(marker255 , click, function() {
+infowindow255 .open(map, marker255 );
+}
+var contentString256 = ('Sant Adri&agrave;', ' ', '2', '\n', 'places lliures: ', 10, '\n', 'bicis disponibles: ', 16) ;
+var infowindow256 = new google.maps.InfoWindow({
+content: contentString256
+});
+var myLatLng256 = new google.maps.LatLng( 41.4338970 2.18961400 );
+var marker256 = new google.maps.Marker({
+position: myLatLng256 ,
+map: map,
+title:256
+});
+google.maps.event.addListener(marker256 , click, function() {
+infowindow256 .open(map, marker256 );
+}
+var contentString257 = ('Carrer de Palomar', ' ', '6', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 19) ;
+var infowindow257 = new google.maps.InfoWindow({
+content: contentString257
+});
+var myLatLng257 = new google.maps.LatLng( 41.4420130 2.18910100 );
+var marker257 = new google.maps.Marker({
+position: myLatLng257 ,
+map: map,
+title:257
+});
+google.maps.event.addListener(marker257 , click, function() {
+infowindow257 .open(map, marker257 );
+}
+var contentString258 = ('Carrer de Bartrina', ' ', '14', '\n', 'places lliures: ', 6, '\n', 'bicis disponibles: ', 20) ;
+var infowindow258 = new google.maps.InfoWindow({
+content: contentString258
+});
+var myLatLng258 = new google.maps.LatLng( 41.4391090 2.18581800 );
+var marker258 = new google.maps.Marker({
+position: myLatLng258 ,
+map: map,
+title:258
+});
+google.maps.event.addListener(marker258 , click, function() {
+infowindow258 .open(map, marker258 );
+}
+var contentString260 = ('Villarroel', ' ', '39', '\n', 'places lliures: ', 4, '\n', 'bicis disponibles: ', 23) ;
+var infowindow260 = new google.maps.InfoWindow({
+content: contentString260
+});
+var myLatLng260 = new google.maps.LatLng( 41.3822060 2.16064400 );
+var marker260 = new google.maps.Marker({
+position: myLatLng260 ,
+map: map,
+title:260
+});
+google.maps.event.addListener(marker260 , click, function() {
+infowindow260 .open(map, marker260 );
+}
+var contentString261 = ('Rocafort', ' ', '103', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 11) ;
+var infowindow261 = new google.maps.InfoWindow({
+content: contentString261
+});
+var myLatLng261 = new google.maps.LatLng( 41.3798210 2.15249600 );
+var marker261 = new google.maps.Marker({
+position: myLatLng261 ,
+map: map,
+title:261
+});
+google.maps.event.addListener(marker261 , click, function() {
+infowindow261 .open(map, marker261 );
+}
+var infowindow263 = new google.maps.InfoWindow({
+content: contentString263
+});
+var myLatLng263 = new google.maps.LatLng( 41.4399490 2.19703300 );
+var marker263 = new google.maps.Marker({
+position: myLatLng263 ,
+map: map,
+title:263
+});
+google.maps.event.addListener(marker263 , click, function() {
+infowindow263 .open(map, marker263 );
+}
+var contentString264 = ('Casanovas, 71', ' ', '82', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 10) ;
+var infowindow264 = new google.maps.InfoWindow({
+content: contentString264
+});
+var myLatLng264 = new google.maps.LatLng( 41.3856600 2.15837000 );
+var marker264 = new google.maps.Marker({
+position: myLatLng264 ,
+map: map,
+title:264
+});
+google.maps.event.addListener(marker264 , click, function() {
+infowindow264 .open(map, marker264 );
+}
+var contentString267 = ('Coronel Monasterio', ' ', '26', '\n', 'places lliures: ', 23, '\n', 'bicis disponibles: ', 3) ;
+var infowindow267 = new google.maps.InfoWindow({
+content: contentString267
+});
+var myLatLng267 = new google.maps.LatLng( 41.4457050 2.19289200 );
+var marker267 = new google.maps.Marker({
+position: myLatLng267 ,
+map: map,
+title:267
+});
+google.maps.event.addListener(marker267 , click, function() {
+infowindow267 .open(map, marker267 );
+}
+var contentString268 = ('Via Barcino', ' ', '121', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 15) ;
+var infowindow268 = new google.maps.InfoWindow({
+content: contentString268
+});
+var myLatLng268 = new google.maps.LatLng( 41.4481280 2.19282600 );
+var marker268 = new google.maps.Marker({
+position: myLatLng268 ,
+map: map,
+title:268
+});
+google.maps.event.addListener(marker268 , click, function() {
+infowindow268 .open(map, marker268 );
+}
+var contentString269 = ('Pl. de la Trinitat, 5-7 / amb Mare de D&eacute;u de Lorda', ' ', '5', '\n', 'places lliures: ', 21, '\n', 'bicis disponibles: ', 5) ;
+var infowindow269 = new google.maps.InfoWindow({
+content: contentString269
+});
+var myLatLng269 = new google.maps.LatLng( 41.4498740 2.19097800 );
+var marker269 = new google.maps.Marker({
+position: myLatLng269 ,
+map: map,
+title:269
+});
+google.maps.event.addListener(marker269 , click, function() {
+infowindow269 .open(map, marker269 );
+}
+var contentString271 = ('Concepci&oacute; Arenal', ' ', '281', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 4) ;
+var infowindow271 = new google.maps.InfoWindow({
+content: contentString271
+});
+var myLatLng271 = new google.maps.LatLng( 41.4325520 2.18429000 );
+var marker271 = new google.maps.Marker({
+position: myLatLng271 ,
+map: map,
+title:271
+});
+google.maps.event.addListener(marker271 , click, function() {
+infowindow271 .open(map, marker271 );
+}
+var contentString272 = ('Avda. Meridiana', ' ', '404', '\n', 'places lliures: ', 27, '\n', 'bicis disponibles: ', 7) ;
+var infowindow272 = new google.maps.InfoWindow({
+content: contentString272
+});
+var myLatLng272 = new google.maps.LatLng( 41.4304040 2.18338200 );
+var marker272 = new google.maps.Marker({
+position: myLatLng272 ,
+map: map,
+title:272
+});
+google.maps.event.addListener(marker272 , click, function() {
+infowindow272 .open(map, marker272 );
+}
+var contentString273 = ('Avda. Meridiana', ' ', '404', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 16) ;
+var infowindow273 = new google.maps.InfoWindow({
+content: contentString273
+});
+var myLatLng273 = new google.maps.LatLng( 41.4300710 2.18473000 );
+var marker273 = new google.maps.Marker({
+position: myLatLng273 ,
+map: map,
+title:273
+});
+google.maps.event.addListener(marker273 , click, function() {
+infowindow273 .open(map, marker273 );
+}
+var contentString274 = ('Rio de Janeiro', ' ', '3', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 19) ;
+var infowindow274 = new google.maps.InfoWindow({
+content: contentString274
+});
+var myLatLng274 = new google.maps.LatLng( 41.4306930 2.18222500 );
+var marker274 = new google.maps.Marker({
+position: myLatLng274 ,
+map: map,
+title:274
+});
+google.maps.event.addListener(marker274 , click, function() {
+infowindow274 .open(map, marker274 );
+}
+var contentString275 = ('Pla&ccedil;a Alfons X el Savi / Ronda del Guinard&oacute; ', ' ', None, '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 3) ;
+var infowindow275 = new google.maps.InfoWindow({
+content: contentString275
+});
+var myLatLng275 = new google.maps.LatLng( 41.4121630 2.16527500 );
+var marker275 = new google.maps.Marker({
+position: myLatLng275 ,
+map: map,
+title:275
+});
+google.maps.event.addListener(marker275 , click, function() {
+infowindow275 .open(map, marker275 );
+}
+var infowindow276 = new google.maps.InfoWindow({
+content: contentString276
+});
+var myLatLng276 = new google.maps.LatLng( 41.4084360 2.16907400 );
+var marker276 = new google.maps.Marker({
+position: myLatLng276 ,
+map: map,
+title:276
+});
+google.maps.event.addListener(marker276 , click, function() {
+infowindow276 .open(map, marker276 );
+}
+var contentString277 = ('Rosalia de Castro', ' ', '41', '\n', 'places lliures: ', 19, '\n', 'bicis disponibles: ', 5) ;
+var infowindow277 = new google.maps.InfoWindow({
+content: contentString277
+});
+var myLatLng277 = new google.maps.LatLng( 41.4115030 2.17207300 );
+var marker277 = new google.maps.Marker({
+position: myLatLng277 ,
+map: map,
+title:277
+});
+google.maps.event.addListener(marker277 , click, function() {
+infowindow277 .open(map, marker277 );
+}
+var contentString278 = ('Ronda Guinardo', ' ', '118', '\n', 'places lliures: ', 7, '\n', 'bicis disponibles: ', 18) ;
+var infowindow278 = new google.maps.InfoWindow({
+content: contentString278
+});
+var myLatLng278 = new google.maps.LatLng( 41.4166580 2.17459300 );
+var marker278 = new google.maps.Marker({
+position: myLatLng278 ,
+map: map,
+title:278
+});
+google.maps.event.addListener(marker278 , click, function() {
+infowindow278 .open(map, marker278 );
+}
+var contentString280 = ('Ronda Guinardo', ' ', '179', '\n', 'places lliures: ', 11, '\n', 'bicis disponibles: ', 15) ;
+var infowindow280 = new google.maps.InfoWindow({
+content: contentString280
+});
+var myLatLng280 = new google.maps.LatLng( 41.4193840 2.17652400 );
+var marker280 = new google.maps.Marker({
+position: myLatLng280 ,
+map: map,
+title:280
+});
+google.maps.event.addListener(marker280 , click, function() {
+infowindow280 .open(map, marker280 );
+}
+var contentString281 = ('Font d&#039;en Fargas', ' ', '1', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 11) ;
+var infowindow281 = new google.maps.InfoWindow({
+content: contentString281
+});
+var myLatLng281 = new google.maps.LatLng( 41.4275610 2.16602200 );
+var marker281 = new google.maps.Marker({
+position: myLatLng281 ,
+map: map,
+title:281
+});
+google.maps.event.addListener(marker281 , click, function() {
+infowindow281 .open(map, marker281 );
+}
+var contentString282 = ('Pla&ccedil;a Eivissa', ' ', '10', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 12) ;
+var infowindow282 = new google.maps.InfoWindow({
+content: contentString282
+});
+var myLatLng282 = new google.maps.LatLng( 41.4307200 2.16080000 );
+var marker282 = new google.maps.Marker({
+position: myLatLng282 ,
+map: map,
+title:282
+});
+google.maps.event.addListener(marker282 , click, function() {
+infowindow282 .open(map, marker282 );
+}
+var infowindow283 = new google.maps.InfoWindow({
+content: contentString283
+});
+var myLatLng283 = new google.maps.LatLng( 41.3895030 2.13145400 );
+var marker283 = new google.maps.Marker({
+position: myLatLng283 ,
+map: map,
+title:283
+});
+google.maps.event.addListener(marker283 , click, function() {
+infowindow283 .open(map, marker283 );
+}
+var contentString284 = ('Malats', ' ', '98', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 8) ;
+var infowindow284 = new google.maps.InfoWindow({
+content: contentString284
+});
+var myLatLng284 = new google.maps.LatLng( 41.4367080 2.18605900 );
+var marker284 = new google.maps.Marker({
+position: myLatLng284 ,
+map: map,
+title:284
+});
+google.maps.event.addListener(marker284 , click, function() {
+infowindow284 .open(map, marker284 );
+}
+var infowindow285 = new google.maps.InfoWindow({
+content: contentString285
+});
+var myLatLng285 = new google.maps.LatLng( 41.4031030 2.19142800 );
+var marker285 = new google.maps.Marker({
+position: myLatLng285 ,
+map: map,
+title:285
+});
+google.maps.event.addListener(marker285 , click, function() {
+infowindow285 .open(map, marker285 );
+}
+var contentString286 = ('Gran Via', ' ', '632', '\n', 'places lliures: ', 11, '\n', 'bicis disponibles: ', 4) ;
+var infowindow286 = new google.maps.InfoWindow({
+content: contentString286
+});
+var myLatLng286 = new google.maps.LatLng( 41.3891710 2.16811300 );
+var marker286 = new google.maps.Marker({
+position: myLatLng286 ,
+map: map,
+title:286
+});
+google.maps.event.addListener(marker286 , click, function() {
+infowindow286 .open(map, marker286 );
+}
+var infowindow287 = new google.maps.InfoWindow({
+content: contentString287
+});
+var myLatLng287 = new google.maps.LatLng( 41.4296360 2.17448700 );
+var marker287 = new google.maps.Marker({
+position: myLatLng287 ,
+map: map,
+title:287
+});
+google.maps.event.addListener(marker287 , click, function() {
+infowindow287 .open(map, marker287 );
+}
+var contentString288 = ('P. Fabra i Puig', ' ', '323', '\n', 'places lliures: ', 4, '\n', 'bicis disponibles: ', 22) ;
+var infowindow288 = new google.maps.InfoWindow({
+content: contentString288
+});
+var myLatLng288 = new google.maps.LatLng( 41.4168280 2.19102200 );
+var marker288 = new google.maps.Marker({
+position: myLatLng288 ,
+map: map,
+title:288
+});
+google.maps.event.addListener(marker288 , click, function() {
+infowindow288 .open(map, marker288 );
+}
+var contentString289 = ('Pla&ccedil;a dels Jardins d&#039;Alf&agrave;bia', ' ', '1', '\n', 'places lliures: ', 19, '\n', 'bicis disponibles: ', 8) ;
+var infowindow289 = new google.maps.InfoWindow({
+content: contentString289
+});
+var myLatLng289 = new google.maps.LatLng( 41.4370940 2.17404700 );
+var marker289 = new google.maps.Marker({
+position: myLatLng289 ,
+map: map,
+title:289
+});
+google.maps.event.addListener(marker289 , click, function() {
+infowindow289 .open(map, marker289 );
+}
+var contentString290 = ('Subirats', ' ', '5', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 4) ;
+var infowindow290 = new google.maps.InfoWindow({
+content: contentString290
+});
+var myLatLng290 = new google.maps.LatLng( 41.4269750 2.17459800 );
+var marker290 = new google.maps.Marker({
+position: myLatLng290 ,
+map: map,
+title:290
+});
+google.maps.event.addListener(marker290 , click, function() {
+infowindow290 .open(map, marker290 );
+}
+var contentString291 = ('Amilcar', ' ', '1', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 9) ;
+var infowindow291 = new google.maps.InfoWindow({
+content: contentString291
+});
+var myLatLng291 = new google.maps.LatLng( 41.4300360 2.17197400 );
+var marker291 = new google.maps.Marker({
+position: myLatLng291 ,
+map: map,
+title:291
+});
+google.maps.event.addListener(marker291 , click, function() {
+infowindow291 .open(map, marker291 );
+}
+var contentString292 = ('Petrarca', ' ', '44', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 10) ;
+var infowindow292 = new google.maps.InfoWindow({
+content: contentString292
+});
+var myLatLng292 = new google.maps.LatLng( 41.4287470 2.16455900 );
+var marker292 = new google.maps.Marker({
+position: myLatLng292 ,
+map: map,
+title:292
+});
+google.maps.event.addListener(marker292 , click, function() {
+infowindow292 .open(map, marker292 );
+}
+var contentString293 = ('Seu del Districte (Nou Barris)', ' ', None, '\n', 'places lliures: ', 23, '\n', 'bicis disponibles: ', 4) ;
+var infowindow293 = new google.maps.InfoWindow({
+content: contentString293
+});
+var myLatLng293 = new google.maps.LatLng( 41.4363730 2.17067800 );
+var marker293 = new google.maps.Marker({
+position: myLatLng293 ,
+map: map,
+title:293
+});
+google.maps.event.addListener(marker293 , click, function() {
+infowindow293 .open(map, marker293 );
+}
+var contentString294 = ('Sant Iscle', ' ', '60', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 9) ;
+var infowindow294 = new google.maps.InfoWindow({
+content: contentString294
+});
+var myLatLng294 = new google.maps.LatLng( 41.4334500 2.17150000 );
+var marker294 = new google.maps.Marker({
+position: myLatLng294 ,
+map: map,
+title:294
+});
+google.maps.event.addListener(marker294 , click, function() {
+infowindow294 .open(map, marker294 );
+}
+var contentString295 = ('Carrer de Rossell&oacute; i Porcel', ' ', '1', '\n', 'places lliures: ', 25, '\n', 'bicis disponibles: ', 8) ;
+var infowindow295 = new google.maps.InfoWindow({
+content: contentString295
+});
+var myLatLng295 = new google.maps.LatLng( 41.4365050 2.18387700 );
+var marker295 = new google.maps.Marker({
+position: myLatLng295 ,
+map: map,
+title:295
+});
+google.maps.event.addListener(marker295 , click, function() {
+infowindow295 .open(map, marker295 );
+}
+var infowindow296 = new google.maps.InfoWindow({
+content: contentString296
+});
+var myLatLng296 = new google.maps.LatLng( 41.4388640 2.17682200 );
+var marker296 = new google.maps.Marker({
+position: myLatLng296 ,
+map: map,
+title:296
+});
+google.maps.event.addListener(marker296 , click, function() {
+infowindow296 .open(map, marker296 );
+}
+var contentString297 = ('Andreu Nin', ' ', '22', '\n', 'places lliures: ', 23, '\n', 'bicis disponibles: ', 9) ;
+var infowindow297 = new google.maps.InfoWindow({
+content: contentString297
+});
+var myLatLng297 = new google.maps.LatLng( 41.4346300 2.18174700 );
+var marker297 = new google.maps.Marker({
+position: myLatLng297 ,
+map: map,
+title:297
+});
+google.maps.event.addListener(marker297 , click, function() {
+infowindow297 .open(map, marker297 );
+}
+var contentString298 = ('Carrer de l&#039;Escultor Ord&oacute;&ntilde;ez', ' ', '55', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 19) ;
+var infowindow298 = new google.maps.InfoWindow({
+content: contentString298
+});
+var myLatLng298 = new google.maps.LatLng( 41.4339650 2.17519900 );
+var marker298 = new google.maps.Marker({
+position: myLatLng298 ,
+map: map,
+title:298
+});
+google.maps.event.addListener(marker298 , click, function() {
+infowindow298 .open(map, marker298 );
+}
+var contentString299 = ('Carrer de Maladeta', ' ', '1', '\n', 'places lliures: ', 6, '\n', 'bicis disponibles: ', 15) ;
+var infowindow299 = new google.maps.InfoWindow({
+content: contentString299
+});
+var myLatLng299 = new google.maps.LatLng( 41.4315930 2.17690900 );
+var marker299 = new google.maps.Marker({
+position: myLatLng299 ,
+map: map,
+title:299
+});
+google.maps.event.addListener(marker299 , click, function() {
+infowindow299 .open(map, marker299 );
+}
+var contentString300 = ('Marie Curie', ' ', '8', '\n', 'places lliures: ', 19, '\n', 'bicis disponibles: ', 8) ;
+var infowindow300 = new google.maps.InfoWindow({
+content: contentString300
+});
+var myLatLng300 = new google.maps.LatLng( 41.4370530 2.16964400 );
+var marker300 = new google.maps.Marker({
+position: myLatLng300 ,
+map: map,
+title:300
+});
+google.maps.event.addListener(marker300 , click, function() {
+infowindow300 .open(map, marker300 );
+}
+var infowindow301 = new google.maps.InfoWindow({
+content: contentString301
+});
+var myLatLng301 = new google.maps.LatLng( 41.3906500 2.11161500 );
+var marker301 = new google.maps.Marker({
+position: myLatLng301 ,
+map: map,
+title:301
+});
+google.maps.event.addListener(marker301 , click, function() {
+infowindow301 .open(map, marker301 );
+}
+var infowindow302 = new google.maps.InfoWindow({
+content: contentString302
+});
+var myLatLng302 = new google.maps.LatLng( 41.3930750 2.11487500 );
+var marker302 = new google.maps.Marker({
+position: myLatLng302 ,
+map: map,
+title:302
+});
+google.maps.event.addListener(marker302 , click, function() {
+infowindow302 .open(map, marker302 );
+}
+var contentString303 = ('Jim&eacute;nez Iglesias', ' ', '15', '\n', 'places lliures: ', 24, '\n', 'bicis disponibles: ', 9) ;
+var infowindow303 = new google.maps.InfoWindow({
+content: contentString303
+});
+var myLatLng303 = new google.maps.LatLng( 41.3898900 2.12188000 );
+var marker303 = new google.maps.Marker({
+position: myLatLng303 ,
+map: map,
+title:303
+});
+google.maps.event.addListener(marker303 , click, function() {
+infowindow303 .open(map, marker303 );
+}
+var contentString305 = ('Doctor Salvador Cardenal', ' ', '7', '\n', 'places lliures: ', 25, '\n', 'bicis disponibles: ', 6) ;
+var infowindow305 = new google.maps.InfoWindow({
+content: contentString305
+});
+var myLatLng305 = new google.maps.LatLng( 41.3854650 2.12291200 );
+var marker305 = new google.maps.Marker({
+position: myLatLng305 ,
+map: map,
+title:305
+});
+google.maps.event.addListener(marker305 , click, function() {
+infowindow305 .open(map, marker305 );
+}
+var infowindow306 = new google.maps.InfoWindow({
+content: contentString306
+});
+var myLatLng306 = new google.maps.LatLng( 41.3791350 2.11350500 );
+var marker306 = new google.maps.Marker({
+position: myLatLng306 ,
+map: map,
+title:306
+});
+google.maps.event.addListener(marker306 , click, function() {
+infowindow306 .open(map, marker306 );
+}
+var contentString307 = ('Cardenal Reig', ' ', '11', '\n', 'places lliures: ', 5, '\n', 'bicis disponibles: ', 19) ;
+var infowindow307 = new google.maps.InfoWindow({
+content: contentString307
+});
+var myLatLng307 = new google.maps.LatLng( 41.3767880 2.11386400 );
+var marker307 = new google.maps.Marker({
+position: myLatLng307 ,
+map: map,
+title:307
+});
+google.maps.event.addListener(marker307 , click, function() {
+infowindow307 .open(map, marker307 );
+}
+var infowindow308 = new google.maps.InfoWindow({
+content: contentString308
+});
+var myLatLng308 = new google.maps.LatLng( 41.3767400 2.11697300 );
+var marker308 = new google.maps.Marker({
+position: myLatLng308 ,
+map: map,
+title:308
+});
+google.maps.event.addListener(marker308 , click, function() {
+infowindow308 .open(map, marker308 );
+}
+var contentString309 = ('Josep Samitier', ' ', None, '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 19) ;
+var infowindow309 = new google.maps.InfoWindow({
+content: contentString309
+});
+var myLatLng309 = new google.maps.LatLng( 41.3812230 2.11907700 );
+var marker309 = new google.maps.Marker({
+position: myLatLng309 ,
+map: map,
+title:309
+});
+google.maps.event.addListener(marker309 , click, function() {
+infowindow309 .open(map, marker309 );
+}
+var contentString310 = ('Travessera de les Corts', ' ', '58', '\n', 'places lliures: ', 18, '\n', 'bicis disponibles: ', 4) ;
+var infowindow310 = new google.maps.InfoWindow({
+content: contentString310
+});
+var myLatLng310 = new google.maps.LatLng( 41.3781720 2.12182600 );
+var marker310 = new google.maps.Marker({
+position: myLatLng310 ,
+map: map,
+title:310
+});
+google.maps.event.addListener(marker310 , click, function() {
+infowindow310 .open(map, marker310 );
+}
+var contentString311 = ('Felipe de Paz', ' ', '2', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 13) ;
+var infowindow311 = new google.maps.InfoWindow({
+content: contentString311
+});
+var myLatLng311 = new google.maps.LatLng( 41.3798160 2.12658800 );
+var marker311 = new google.maps.Marker({
+position: myLatLng311 ,
+map: map,
+title:311
+});
+google.maps.event.addListener(marker311 , click, function() {
+infowindow311 .open(map, marker311 );
+}
+var contentString312 = ('C&aacute;ceres', ' ', '53', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 12) ;
+var infowindow312 = new google.maps.InfoWindow({
+content: contentString312
+});
+var myLatLng312 = new google.maps.LatLng( 41.3745580 2.13101600 );
+var marker312 = new google.maps.Marker({
+position: myLatLng312 ,
+map: map,
+title:312
+});
+google.maps.event.addListener(marker312 , click, function() {
+infowindow312 .open(map, marker312 );
+}
+var infowindow314 = new google.maps.InfoWindow({
+content: contentString314
+});
+var myLatLng314 = new google.maps.LatLng( 41.4156170 2.18196600 );
+var marker314 = new google.maps.Marker({
+position: myLatLng314 ,
+map: map,
+title:314
+});
+google.maps.event.addListener(marker314 , click, function() {
+infowindow314 .open(map, marker314 );
+}
+var contentString315 = ('Cant&agrave;bria', ' ', '55', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 9) ;
+var infowindow315 = new google.maps.InfoWindow({
+content: contentString315
+});
+var myLatLng315 = new google.maps.LatLng( 41.4222120 2.19831600 );
+var marker315 = new google.maps.Marker({
+position: myLatLng315 ,
+map: map,
+title:315
+});
+google.maps.event.addListener(marker315 , click, function() {
+infowindow315 .open(map, marker315 );
+}
+var contentString316 = ('Rambla Prim', ' ', '256', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 14) ;
+var infowindow316 = new google.maps.InfoWindow({
+content: contentString316
+});
+var myLatLng316 = new google.maps.LatLng( 41.4255660 2.20069300 );
+var marker316 = new google.maps.Marker({
+position: myLatLng316 ,
+map: map,
+title:316
+});
+google.maps.event.addListener(marker316 , click, function() {
+infowindow316 .open(map, marker316 );
+}
+var contentString317 = ('Ronda Guinardo', ' ', '83', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 14) ;
+var infowindow317 = new google.maps.InfoWindow({
+content: contentString317
+});
+var myLatLng317 = new google.maps.LatLng( 41.4140760 2.17083800 );
+var marker317 = new google.maps.Marker({
+position: myLatLng317 ,
+map: map,
+title:317
+});
+google.maps.event.addListener(marker317 , click, function() {
+infowindow317 .open(map, marker317 );
+}
+var contentString318 = ('Amig&oacute;', ' ', '23', '\n', 'places lliures: ', 21, '\n', 'bicis disponibles: ', 7) ;
+var infowindow318 = new google.maps.InfoWindow({
+content: contentString318
+});
+var myLatLng318 = new google.maps.LatLng( 41.3947200 2.14516100 );
+var marker318 = new google.maps.Marker({
+position: myLatLng318 ,
+map: map,
+title:318
+});
+google.maps.event.addListener(marker318 , click, function() {
+infowindow318 .open(map, marker318 );
+}
+var contentString319 = ('Gleva', ' ', '21', '\n', 'places lliures: ', 21, '\n', 'bicis disponibles: ', 4) ;
+var infowindow319 = new google.maps.InfoWindow({
+content: contentString319
+});
+var myLatLng319 = new google.maps.LatLng( 41.4033840 2.14587500 );
+var marker319 = new google.maps.Marker({
+position: myLatLng319 ,
+map: map,
+title:319
+});
+google.maps.event.addListener(marker319 , click, function() {
+infowindow319 .open(map, marker319 );
+}
+var contentString320 = ('Carrer de P&aacute;dua', ' ', '98', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 4) ;
+var infowindow320 = new google.maps.InfoWindow({
+content: contentString320
+});
+var myLatLng320 = new google.maps.LatLng( 41.4040380 2.14364800 );
+var marker320 = new google.maps.Marker({
+position: myLatLng320 ,
+map: map,
+title:320
+});
+google.maps.event.addListener(marker320 , click, function() {
+infowindow320 .open(map, marker320 );
+}
+var contentString321 = ('Santal&oacute;', ' ', '165', '\n', 'places lliures: ', 21, '\n', 'bicis disponibles: ', 6) ;
+var infowindow321 = new google.maps.InfoWindow({
+content: contentString321
+});
+var myLatLng321 = new google.maps.LatLng( 41.4009770 2.13907000 );
+var marker321 = new google.maps.Marker({
+position: myLatLng321 ,
+map: map,
+title:321
+});
+google.maps.event.addListener(marker321 , click, function() {
+infowindow321 .open(map, marker321 );
+}
+var contentString322 = ('Vallmajor', ' ', '13', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 13) ;
+var infowindow322 = new google.maps.InfoWindow({
+content: contentString322
+});
+var myLatLng322 = new google.maps.LatLng( 41.3979960 2.13871700 );
+var marker322 = new google.maps.Marker({
+position: myLatLng322 ,
+map: map,
+title:322
+});
+google.maps.event.addListener(marker322 , click, function() {
+infowindow322 .open(map, marker322 );
+}
+var contentString323 = ('Reina Victoria', ' ', '31', '\n', 'places lliures: ', 10, '\n', 'bicis disponibles: ', 17) ;
+var infowindow323 = new google.maps.InfoWindow({
+content: contentString323
+});
+var myLatLng323 = new google.maps.LatLng( 41.3969380 2.13625800 );
+var marker323 = new google.maps.Marker({
+position: myLatLng323 ,
+map: map,
+title:323
+});
+google.maps.event.addListener(marker323 , click, function() {
+infowindow323 .open(map, marker323 );
+}
+var infowindow324 = new google.maps.InfoWindow({
+content: contentString324
+});
+var myLatLng324 = new google.maps.LatLng( 41.3949300 2.13032500 );
+var marker324 = new google.maps.Marker({
+position: myLatLng324 ,
+map: map,
+title:324
+});
+google.maps.event.addListener(marker324 , click, function() {
+infowindow324 .open(map, marker324 );
+}
+var contentString325 = ('Castanyer', ' ', '16', '\n', 'places lliures: ', 7, '\n', 'bicis disponibles: ', 25) ;
+var infowindow325 = new google.maps.InfoWindow({
+content: contentString325
+});
+var myLatLng325 = new google.maps.LatLng( 41.4069830 2.13774200 );
+var marker325 = new google.maps.Marker({
+position: myLatLng325 ,
+map: map,
+title:325
+});
+google.maps.event.addListener(marker325 , click, function() {
+infowindow325 .open(map, marker325 );
+}
+var contentString326 = ('Reus', ' ', '23', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 6) ;
+var infowindow326 = new google.maps.InfoWindow({
+content: contentString326
+});
+var myLatLng326 = new google.maps.LatLng( 41.4050000 2.13453000 );
+var marker326 = new google.maps.Marker({
+position: myLatLng326 ,
+map: map,
+title:326
+});
+google.maps.event.addListener(marker326 , click, function() {
+infowindow326 .open(map, marker326 );
+}
+var contentString327 = ('Artesa de Segre', ' ', '2', '\n', 'places lliures: ', 18, '\n', 'bicis disponibles: ', 9) ;
+var infowindow327 = new google.maps.InfoWindow({
+content: contentString327
+});
+var myLatLng327 = new google.maps.LatLng( 41.4029300 2.13427000 );
+var marker327 = new google.maps.Marker({
+position: myLatLng327 ,
+map: map,
+title:327
+});
+google.maps.event.addListener(marker327 , click, function() {
+infowindow327 .open(map, marker327 );
+}
+var contentString328 = ('Carrer de les Escoles Pies', ' ', '99', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 15) ;
+var infowindow328 = new google.maps.InfoWindow({
+content: contentString328
+});
+var myLatLng328 = new google.maps.LatLng( 41.4028790 2.12854100 );
+var marker328 = new google.maps.Marker({
+position: myLatLng328 ,
+map: map,
+title:328
+});
+google.maps.event.addListener(marker328 , click, function() {
+infowindow328 .open(map, marker328 );
+}
+var contentString329 = ('Doctor Carulla', ' ', '44', '\n', 'places lliures: ', 10, '\n', 'bicis disponibles: ', 15) ;
+var infowindow329 = new google.maps.InfoWindow({
+content: contentString329
+});
+var myLatLng329 = new google.maps.LatLng( 41.4005870 2.13065800 );
+var marker329 = new google.maps.Marker({
+position: myLatLng329 ,
+map: map,
+title:329
+});
+google.maps.event.addListener(marker329 , click, function() {
+infowindow329 .open(map, marker329 );
+}
+var contentString330 = ('Castellnou', ' ', '65', '\n', 'places lliures: ', 9, '\n', 'bicis disponibles: ', 24) ;
+var infowindow330 = new google.maps.InfoWindow({
+content: contentString330
+});
+var myLatLng330 = new google.maps.LatLng( 41.3970600 2.12801000 );
+var marker330 = new google.maps.Marker({
+position: myLatLng330 ,
+map: map,
+title:330
+});
+google.maps.event.addListener(marker330 , click, function() {
+infowindow330 .open(map, marker330 );
+}
+var contentString331 = ('Doctor Roux', ' ', '86', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 13) ;
+var infowindow331 = new google.maps.InfoWindow({
+content: contentString331
+});
+var myLatLng331 = new google.maps.LatLng( 41.3998220 2.12809000 );
+var marker331 = new google.maps.Marker({
+position: myLatLng331 ,
+map: map,
+title:331
+});
+google.maps.event.addListener(marker331 , click, function() {
+infowindow331 .open(map, marker331 );
+}
+var contentString332 = ('Passatge de Senillosa', ' ', '3', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 5) ;
+var infowindow332 = new google.maps.InfoWindow({
+content: contentString332
+});
+var myLatLng332 = new google.maps.LatLng( 41.3956320 2.12510600 );
+var marker332 = new google.maps.Marker({
+position: myLatLng332 ,
+map: map,
+title:332
+});
+google.maps.event.addListener(marker332 , click, function() {
+infowindow332 .open(map, marker332 );
+}
+var contentString333 = ('Via Augusta', ' ', '348', '\n', 'places lliures: ', 10, '\n', 'bicis disponibles: ', 17) ;
+var infowindow333 = new google.maps.InfoWindow({
+content: contentString333
+});
+var myLatLng333 = new google.maps.LatLng( 41.4007220 2.12326800 );
+var marker333 = new google.maps.Marker({
+position: myLatLng333 ,
+map: map,
+title:333
+});
+google.maps.event.addListener(marker333 , click, function() {
+infowindow333 .open(map, marker333 );
+}
+var contentString334 = ('Santa Am&egrave;lia', ' ', '2', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 4) ;
+var infowindow334 = new google.maps.InfoWindow({
+content: contentString334
+});
+var myLatLng334 = new google.maps.LatLng( 41.3936390 2.12322400 );
+var marker334 = new google.maps.Marker({
+position: myLatLng334 ,
+map: map,
+title:334
+});
+google.maps.event.addListener(marker334 , click, function() {
+infowindow334 .open(map, marker334 );
+}
+var contentString335 = ('Caponata', ' ', '10', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 14) ;
+var infowindow335 = new google.maps.InfoWindow({
+content: contentString335
+});
+var myLatLng335 = new google.maps.LatLng( 41.3952740 2.12097300 );
+var marker335 = new google.maps.Marker({
+position: myLatLng335 ,
+map: map,
+title:335
+});
+google.maps.event.addListener(marker335 , click, function() {
+infowindow335 .open(map, marker335 );
+}
+var contentString336 = ('Negrevern&iacute;s', ' ', '20', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 9) ;
+var infowindow336 = new google.maps.InfoWindow({
+content: contentString336
+});
+var myLatLng336 = new google.maps.LatLng( 41.3987190 2.12042200 );
+var marker336 = new google.maps.Marker({
+position: myLatLng336 ,
+map: map,
+title:336
+});
+google.maps.event.addListener(marker336 , click, function() {
+infowindow336 .open(map, marker336 );
+}
+var contentString337 = ('Avinguda de J.Foix', ' ', '63', '\n', 'places lliures: ', 5, '\n', 'bicis disponibles: ', 28) ;
+var infowindow337 = new google.maps.InfoWindow({
+content: contentString337
+});
+var myLatLng337 = new google.maps.LatLng( 41.3975720 2.11950600 );
+var marker337 = new google.maps.Marker({
+position: myLatLng337 ,
+map: map,
+title:337
+});
+google.maps.event.addListener(marker337 , click, function() {
+infowindow337 .open(map, marker337 );
+}
+var contentString338 = ('Bilbao', ' ', '51', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 14) ;
+var infowindow338 = new google.maps.InfoWindow({
+content: contentString338
+});
+var myLatLng338 = new google.maps.LatLng( 41.4026000 2.20370000 );
+var marker338 = new google.maps.Marker({
+position: myLatLng338 ,
+map: map,
+title:338
+});
+google.maps.event.addListener(marker338 , click, function() {
+infowindow338 .open(map, marker338 );
+}
+var contentString339 = ('Sant Adri&agrave;', ' ', '113', '\n', 'places lliures: ', 4, '\n', 'bicis disponibles: ', 20) ;
+var infowindow339 = new google.maps.InfoWindow({
+content: contentString339
+});
+var myLatLng339 = new google.maps.LatLng( 41.4361450 2.20463400 );
+var marker339 = new google.maps.Marker({
+position: myLatLng339 ,
+map: map,
+title:339
+});
+google.maps.event.addListener(marker339 , click, function() {
+infowindow339 .open(map, marker339 );
+}
+var contentString340 = ('Passeig Enric Sanch&iacute;s', ' ', '33', '\n', 'places lliures: ', 4, '\n', 'bicis disponibles: ', 22) ;
+var infowindow340 = new google.maps.InfoWindow({
+content: contentString340
+});
+var myLatLng340 = new google.maps.LatLng( 41.4341910 2.20588600 );
+var marker340 = new google.maps.Marker({
+position: myLatLng340 ,
+map: map,
+title:340
+});
+google.maps.event.addListener(marker340 , click, function() {
+infowindow340 .open(map, marker340 );
+}
+var contentString342 = ('Campana de la Maquinista', ' ', None, '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 6) ;
+var infowindow342 = new google.maps.InfoWindow({
+content: contentString342
+});
+var myLatLng342 = new google.maps.LatLng( 41.4388860 2.19959800 );
+var marker342 = new google.maps.Marker({
+position: myLatLng342 ,
+map: map,
+title:342
+});
+google.maps.event.addListener(marker342 , click, function() {
+infowindow342 .open(map, marker342 );
+}
+var contentString343 = ('Ciutat d&#039;Asunci&oacute;n', ' ', '73', '\n', 'places lliures: ', 19, '\n', 'bicis disponibles: ', 8) ;
+var infowindow343 = new google.maps.InfoWindow({
+content: contentString343
+});
+var myLatLng343 = new google.maps.LatLng( 41.4431270 2.19953800 );
+var marker343 = new google.maps.Marker({
+position: myLatLng343 ,
+map: map,
+title:343
+});
+google.maps.event.addListener(marker343 , click, function() {
+infowindow343 .open(map, marker343 );
+}
+var contentString344 = ('Pl. Teresa de Claramunt', ' ', None, '\n', 'places lliures: ', 29, '\n', 'bicis disponibles: ', 4) ;
+var infowindow344 = new google.maps.InfoWindow({
+content: contentString344
+});
+var myLatLng344 = new google.maps.LatLng( 41.3630930 2.13977100 );
+var marker344 = new google.maps.Marker({
+position: myLatLng344 ,
+map: map,
+title:344
+});
+google.maps.event.addListener(marker344 , click, function() {
+infowindow344 .open(map, marker344 );
+}
+var contentString345 = ('Carrer de la Foneria', ' ', '33', '\n', 'places lliures: ', 10, '\n', 'bicis disponibles: ', 21) ;
+var infowindow345 = new google.maps.InfoWindow({
+content: contentString345
+});
+var myLatLng345 = new google.maps.LatLng( 41.3606540 2.13913200 );
+var marker345 = new google.maps.Marker({
+position: myLatLng345 ,
+map: map,
+title:345
+});
+google.maps.event.addListener(marker345 , click, function() {
+infowindow345 .open(map, marker345 );
+}
+var contentString346 = ('Mare de D&eacute;u dels Ports', ' ', '235', '\n', 'places lliures: ', 28, '\n', 'bicis disponibles: ', 5) ;
+var infowindow346 = new google.maps.InfoWindow({
+content: contentString346
+});
+var myLatLng346 = new google.maps.LatLng( 41.3582550 2.14340100 );
+var marker346 = new google.maps.Marker({
+position: myLatLng346 ,
+map: map,
+title:346
+});
+google.maps.event.addListener(marker346 , click, function() {
+infowindow346 .open(map, marker346 );
+}
+var contentString347 = ('Jardins de Can Ferrero', ' ', None, '\n', 'places lliures: ', 24, '\n', 'bicis disponibles: ', 9) ;
+var infowindow347 = new google.maps.InfoWindow({
+content: contentString347
+});
+var myLatLng347 = new google.maps.LatLng( 41.3570670 2.14156300 );
+var marker347 = new google.maps.Marker({
+position: myLatLng347 ,
+map: map,
+title:347
+});
+google.maps.event.addListener(marker347 , click, function() {
+infowindow347 .open(map, marker347 );
+}
+var contentString348 = ('Carrer de l&#039;Energia', ' ', '2', '\n', 'places lliures: ', 25, '\n', 'bicis disponibles: ', 8) ;
+var infowindow348 = new google.maps.InfoWindow({
+content: contentString348
+});
+var myLatLng348 = new google.maps.LatLng( 41.3573380 2.13717200 );
+var marker348 = new google.maps.Marker({
+position: myLatLng348 ,
+map: map,
+title:348
+});
+google.maps.event.addListener(marker348 , click, function() {
+infowindow348 .open(map, marker348 );
+}
+var contentString349 = ('Villarroel', ' ', '208', '\n', 'places lliures: ', 23, '\n', 'bicis disponibles: ', 10) ;
+var infowindow349 = new google.maps.InfoWindow({
+content: contentString349
+});
+var myLatLng349 = new google.maps.LatLng( 41.3918330 2.14812000 );
+var marker349 = new google.maps.Marker({
+position: myLatLng349 ,
+map: map,
+title:349
+});
+google.maps.event.addListener(marker349 , click, function() {
+infowindow349 .open(map, marker349 );
+}
+var infowindow350 = new google.maps.InfoWindow({
+content: contentString350
+});
+var myLatLng350 = new google.maps.LatLng( 41.3621350 2.13563700 );
+var marker350 = new google.maps.Marker({
+position: myLatLng350 ,
+map: map,
+title:350
+});
+google.maps.event.addListener(marker350 , click, function() {
+infowindow350 .open(map, marker350 );
+}
+var contentString351 = ('Radi', ' ', '10', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 18) ;
+var infowindow351 = new google.maps.InfoWindow({
+content: contentString351
+});
+var myLatLng351 = new google.maps.LatLng( 41.3633500 2.13414400 );
+var marker351 = new google.maps.Marker({
+position: myLatLng351 ,
+map: map,
+title:351
+});
+google.maps.event.addListener(marker351 , click, function() {
+infowindow351 .open(map, marker351 );
+}
+var contentString352 = ('Munn&eacute;', ' ', '6', '\n', 'places lliures: ', 19, '\n', 'bicis disponibles: ', 8) ;
+var infowindow352 = new google.maps.InfoWindow({
+content: contentString352
+});
+var myLatLng352 = new google.maps.LatLng( 41.3754140 2.12319100 );
+var marker352 = new google.maps.Marker({
+position: myLatLng352 ,
+map: map,
+title:352
+});
+google.maps.event.addListener(marker352 , click, function() {
+infowindow352 .open(map, marker352 );
+}
+var contentString353 = ('Rambla del Brasil', ' ', '1', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 15) ;
+var infowindow353 = new google.maps.InfoWindow({
+content: contentString353
+});
+var myLatLng353 = new google.maps.LatLng( 41.3756710 2.13014000 );
+var marker353 = new google.maps.Marker({
+position: myLatLng353 ,
+map: map,
+title:353
+});
+google.maps.event.addListener(marker353 , click, function() {
+infowindow353 .open(map, marker353 );
+}
+var contentString354 = ('Carreras i Candi', ' ', '89', '\n', 'places lliures: ', 5, '\n', 'bicis disponibles: ', 21) ;
+var infowindow354 = new google.maps.InfoWindow({
+content: contentString354
+});
+var myLatLng354 = new google.maps.LatLng( 41.3721100 2.12859000 );
+var marker354 = new google.maps.Marker({
+position: myLatLng354 ,
+map: map,
+title:354
+});
+google.maps.event.addListener(marker354 , click, function() {
+infowindow354 .open(map, marker354 );
+}
+var contentString355 = ('Balcells', ' ', '48', '\n', 'places lliures: ', 23, '\n', 'bicis disponibles: ', 4) ;
+var infowindow355 = new google.maps.InfoWindow({
+content: contentString355
+});
+var myLatLng355 = new google.maps.LatLng( 41.4110670 2.16107000 );
+var marker355 = new google.maps.Marker({
+position: myLatLng355 ,
+map: map,
+title:355
+});
+google.maps.event.addListener(marker355 , click, function() {
+infowindow355 .open(map, marker355 );
+}
+var contentString356 = ('Cardener', ' ', '82', '\n', 'places lliures: ', 3, '\n', 'bicis disponibles: ', 24) ;
+var infowindow356 = new google.maps.InfoWindow({
+content: contentString356
+});
+var myLatLng356 = new google.maps.LatLng( 41.4105380 2.15810000 );
+var marker356 = new google.maps.Marker({
+position: myLatLng356 ,
+map: map,
+title:356
+});
+google.maps.event.addListener(marker356 , click, function() {
+infowindow356 .open(map, marker356 );
+}
+var infowindow357 = new google.maps.InfoWindow({
+content: contentString357
+});
+var myLatLng357 = new google.maps.LatLng( 41.3872250 2.17927000 );
+var marker357 = new google.maps.Marker({
+position: myLatLng357 ,
+map: map,
+title:357
+});
+google.maps.event.addListener(marker357 , click, function() {
+infowindow357 .open(map, marker357 );
+}
+var contentString358 = ('M&eacute;ndez N&uacute;&ntilde;ez', ' ', '16', '\n', 'places lliures: ', 13, '\n', 'bicis disponibles: ', 12) ;
+var infowindow358 = new google.maps.InfoWindow({
+content: contentString358
+});
+var myLatLng358 = new google.maps.LatLng( 41.3900210 2.17757200 );
+var marker358 = new google.maps.Marker({
+position: myLatLng358 ,
+map: map,
+title:358
+});
+google.maps.event.addListener(marker358 , click, function() {
+infowindow358 .open(map, marker358 );
+}
+var contentString359 = ('Bail&eacute;n', ' ', '62', '\n', 'places lliures: ', 5, '\n', 'bicis disponibles: ', 24) ;
+var infowindow359 = new google.maps.InfoWindow({
+content: contentString359
+});
+var myLatLng359 = new google.maps.LatLng( 41.3952130 2.17298400 );
+var marker359 = new google.maps.Marker({
+position: myLatLng359 ,
+map: map,
+title:359
+});
+google.maps.event.addListener(marker359 , click, function() {
+infowindow359 .open(map, marker359 );
+}
+var contentString360 = ('Passeig de Colom', ' ', None, '\n', 'places lliures: ', 5, '\n', 'bicis disponibles: ', 27) ;
+var infowindow360 = new google.maps.InfoWindow({
+content: contentString360
+});
+var myLatLng360 = new google.maps.LatLng( 41.3762920 2.17855300 );
+var marker360 = new google.maps.Marker({
+position: myLatLng360 ,
+map: map,
+title:360
+});
+google.maps.event.addListener(marker360 , click, function() {
+infowindow360 .open(map, marker360 );
+}
+var contentString361 = ('Bail&eacute;n', ' ', '100', '\n', 'places lliures: ', 23, '\n', 'bicis disponibles: ', 7) ;
+var infowindow361 = new google.maps.InfoWindow({
+content: contentString361
+});
+var myLatLng361 = new google.maps.LatLng( 41.3970060 2.17057000 );
+var marker361 = new google.maps.Marker({
+position: myLatLng361 ,
+map: map,
+title:361
+});
+google.maps.event.addListener(marker361 , click, function() {
+infowindow361 .open(map, marker361 );
+}
+var contentString364 = ('Viladomat', ' ', '244', '\n', 'places lliures: ', 29, '\n', 'bicis disponibles: ', 3) ;
+var infowindow364 = new google.maps.InfoWindow({
+content: contentString364
+});
+var myLatLng364 = new google.maps.LatLng( 41.3874990 2.14702000 );
+var marker364 = new google.maps.Marker({
+position: myLatLng364 ,
+map: map,
+title:364
+});
+google.maps.event.addListener(marker364 , click, function() {
+infowindow364 .open(map, marker364 );
+}
+var infowindow365 = new google.maps.InfoWindow({
+content: contentString365
+});
+var myLatLng365 = new google.maps.LatLng( 41.3917400 2.14261300 );
+var marker365 = new google.maps.Marker({
+position: myLatLng365 ,
+map: map,
+title:365
+});
+google.maps.event.addListener(marker365 , click, function() {
+infowindow365 .open(map, marker365 );
+}
+var contentString366 = ('Nicaragua', ' ', '96', '\n', 'places lliures: ', 21, '\n', 'bicis disponibles: ', 9) ;
+var infowindow366 = new google.maps.InfoWindow({
+content: contentString366
+});
+var myLatLng366 = new google.maps.LatLng( 41.3854820 2.13864500 );
+var marker366 = new google.maps.Marker({
+position: myLatLng366 ,
+map: map,
+title:366
+});
+google.maps.event.addListener(marker366 , click, function() {
+infowindow366 .open(map, marker366 );
+}
+var contentString367 = ('Diputaci&oacute;', ' ', '350', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 11) ;
+var infowindow367 = new google.maps.InfoWindow({
+content: contentString367
+});
+var myLatLng367 = new google.maps.LatLng( 41.3968150 2.17571400 );
+var marker367 = new google.maps.Marker({
+position: myLatLng367 ,
+map: map,
+title:367
+});
+google.maps.event.addListener(marker367 , click, function() {
+infowindow367 .open(map, marker367 );
+}
+var contentString368 = ('Consell de Cent', ' ', '513', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 5) ;
+var infowindow368 = new google.maps.InfoWindow({
+content: contentString368
+});
+var myLatLng368 = new google.maps.LatLng( 41.4008280 2.17860000 );
+var marker368 = new google.maps.Marker({
+position: myLatLng368 ,
+map: map,
+title:368
+});
+google.maps.event.addListener(marker368 , click, function() {
+infowindow368 .open(map, marker368 );
+}
+var contentString369 = ('Sardenya', ' ', '234', '\n', 'places lliures: ', 3, '\n', 'bicis disponibles: ', 24) ;
+var infowindow369 = new google.maps.InfoWindow({
+content: contentString369
+});
+var myLatLng369 = new google.maps.LatLng( 41.4037350 2.17298700 );
+var marker369 = new google.maps.Marker({
+position: myLatLng369 ,
+map: map,
+title:369
+});
+google.maps.event.addListener(marker369 , click, function() {
+infowindow369 .open(map, marker369 );
+}
+var contentString370 = ('Carrer dels Enamorats', ' ', '49', '\n', 'places lliures: ', 25, '\n', 'bicis disponibles: ', 7) ;
+var infowindow370 = new google.maps.InfoWindow({
+content: contentString370
+});
+var myLatLng370 = new google.maps.LatLng( 41.4040270 2.18126400 );
+var marker370 = new google.maps.Marker({
+position: myLatLng370 ,
+map: map,
+title:370
+});
+google.maps.event.addListener(marker370 , click, function() {
+infowindow370 .open(map, marker370 );
+}
+var contentString371 = ('Padilla', ' ', '159', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 17) ;
+var infowindow371 = new google.maps.InfoWindow({
+content: contentString371
+});
+var myLatLng371 = new google.maps.LatLng( 41.3999900 2.18450700 );
+var marker371 = new google.maps.Marker({
+position: myLatLng371 ,
+map: map,
+title:371
+});
+google.maps.event.addListener(marker371 , click, function() {
+infowindow371 .open(map, marker371 );
+}
+var contentString374 = ('World Trade Center', ' ', None, '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 6) ;
+var infowindow374 = new google.maps.InfoWindow({
+content: contentString374
+});
+var myLatLng374 = new google.maps.LatLng( 41.3721540 2.18070100 );
+var marker374 = new google.maps.Marker({
+position: myLatLng374 ,
+map: map,
+title:374
+});
+google.maps.event.addListener(marker374 , click, function() {
+infowindow374 .open(map, marker374 );
+}
+var contentString375 = ('World Trade Center', ' ', None, '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 11) ;
+var infowindow375 = new google.maps.InfoWindow({
+content: contentString375
+});
+var myLatLng375 = new google.maps.LatLng( 41.3716630 2.18030200 );
+var marker375 = new google.maps.Marker({
+position: myLatLng375 ,
+map: map,
+title:375
+});
+google.maps.event.addListener(marker375 , click, function() {
+infowindow375 .open(map, marker375 );
+}
+var contentString376 = ('Pl. Ict&iacute;neo', ' ', None, '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 12) ;
+var infowindow376 = new google.maps.InfoWindow({
+content: contentString376
+});
+var myLatLng376 = new google.maps.LatLng( 41.3774700 2.18373700 );
+var marker376 = new google.maps.Marker({
+position: myLatLng376 ,
+map: map,
+title:376
+});
+google.maps.event.addListener(marker376 , click, function() {
+infowindow376 .open(map, marker376 );
+}
+var contentString377 = ('Pl.Joaquim Xira i Palau', ' ', '1', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 4) ;
+var infowindow377 = new google.maps.InfoWindow({
+content: contentString377
+});
+var myLatLng377 = new google.maps.LatLng( 41.3785160 2.17671600 );
+var marker377 = new google.maps.Marker({
+position: myLatLng377 ,
+map: map,
+title:377
+});
+google.maps.event.addListener(marker377 , click, function() {
+infowindow377 .open(map, marker377 );
+}
+var contentString378 = ('Pl. Sant Miquel', ' ', '4', '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 8) ;
+var infowindow378 = new google.maps.InfoWindow({
+content: contentString378
+});
+var myLatLng378 = new google.maps.LatLng( 41.3817090 2.17730800 );
+var marker378 = new google.maps.Marker({
+position: myLatLng378 ,
+map: map,
+title:378
+});
+google.maps.event.addListener(marker378 , click, function() {
+infowindow378 .open(map, marker378 );
+}
+var infowindow379 = new google.maps.InfoWindow({
+content: contentString379
+});
+var myLatLng379 = new google.maps.LatLng( 41.3854630 2.17425200 );
+var marker379 = new google.maps.Marker({
+position: myLatLng379 ,
+map: map,
+title:379
+});
+google.maps.event.addListener(marker379 , click, function() {
+infowindow379 .open(map, marker379 );
+}
+var contentString380 = ('Agust&iacute; Duran i Sanpere', ' ', '10', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 22) ;
+var infowindow380 = new google.maps.InfoWindow({
+content: contentString380
+});
+var myLatLng380 = new google.maps.LatLng( 41.3816070 2.16766700 );
+var marker380 = new google.maps.Marker({
+position: myLatLng380 ,
+map: map,
+title:380
+});
+google.maps.event.addListener(marker380 , click, function() {
+infowindow380 .open(map, marker380 );
+}
+var infowindow381 = new google.maps.InfoWindow({
+content: contentString381
+});
+var myLatLng381 = new google.maps.LatLng( 41.4039380 2.20418800 );
+var marker381 = new google.maps.Marker({
+position: myLatLng381 ,
+map: map,
+title:381
+});
+google.maps.event.addListener(marker381 , click, function() {
+infowindow381 .open(map, marker381 );
+}
+var infowindow382 = new google.maps.InfoWindow({
+content: contentString382
+});
+var myLatLng382 = new google.maps.LatLng( 41.3807080 2.14679300 );
+var marker382 = new google.maps.Marker({
+position: myLatLng382 ,
+map: map,
+title:382
+});
+google.maps.event.addListener(marker382 , click, function() {
+infowindow382 .open(map, marker382 );
+}
+var contentString383 = ('Casanova', ' ', '119', '\n', 'places lliures: ', 23, '\n', 'bicis disponibles: ', 7) ;
+var infowindow383 = new google.maps.InfoWindow({
+content: contentString383
+});
+var myLatLng383 = new google.maps.LatLng( 41.3879780 2.15526600 );
+var marker383 = new google.maps.Marker({
+position: myLatLng383 ,
+map: map,
+title:383
+});
+google.maps.event.addListener(marker383 , click, function() {
+infowindow383 .open(map, marker383 );
+}
+var contentString385 = ('N&agrave;pols', ' ', '125', '\n', 'places lliures: ', 19, '\n', 'bicis disponibles: ', 8) ;
+var infowindow385 = new google.maps.InfoWindow({
+content: contentString385
+});
+var myLatLng385 = new google.maps.LatLng( 41.3957960 2.17878400 );
+var marker385 = new google.maps.Marker({
+position: myLatLng385 ,
+map: map,
+title:385
+});
+google.maps.event.addListener(marker385 , click, function() {
+infowindow385 .open(map, marker385 );
+}
+var infowindow386 = new google.maps.InfoWindow({
+content: contentString386
+});
+var myLatLng386 = new google.maps.LatLng( 41.3805930 2.16741800 );
+var marker386 = new google.maps.Marker({
+position: myLatLng386 ,
+map: map,
+title:386
+});
+google.maps.event.addListener(marker386 , click, function() {
+infowindow386 .open(map, marker386 );
+}
+var contentString388 = ('Comer&ccedil;', ' ', '36', '\n', 'places lliures: ', 16, '\n', 'bicis disponibles: ', 8) ;
+var infowindow388 = new google.maps.InfoWindow({
+content: contentString388
+});
+var myLatLng388 = new google.maps.LatLng( 41.3869550 2.18195000 );
+var marker388 = new google.maps.Marker({
+position: myLatLng388 ,
+map: map,
+title:388
+});
+google.maps.event.addListener(marker388 , click, function() {
+infowindow388 .open(map, marker388 );
+}
+var contentString389 = ('Sagrera', ' ', '74', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 12) ;
+var infowindow389 = new google.maps.InfoWindow({
+content: contentString389
+});
+var myLatLng389 = new google.maps.LatLng( 41.4228730 2.19120400 );
+var marker389 = new google.maps.Marker({
+position: myLatLng389 ,
+map: map,
+title:389
+});
+google.maps.event.addListener(marker389 , click, function() {
+infowindow389 .open(map, marker389 );
+}
+var contentString390 = ('Ramon Turr&oacute;', ' ', '5', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 13) ;
+var infowindow390 = new google.maps.InfoWindow({
+content: contentString390
+});
+var myLatLng390 = new google.maps.LatLng( 41.3907040 2.19054300 );
+var marker390 = new google.maps.Marker({
+position: myLatLng390 ,
+map: map,
+title:390
+});
+google.maps.event.addListener(marker390 , click, function() {
+infowindow390 .open(map, marker390 );
+}
+var contentString392 = ('Diputaci&oacute;', ' ', '226', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 5) ;
+var infowindow392 = new google.maps.InfoWindow({
+content: contentString392
+});
+var myLatLng392 = new google.maps.LatLng( 41.3873300 2.16305000 );
+var marker392 = new google.maps.Marker({
+position: myLatLng392 ,
+map: map,
+title:392
+});
+google.maps.event.addListener(marker392 , click, function() {
+infowindow392 .open(map, marker392 );
+}
+var contentString393 = ('Pl. Catalunya', ' ', '22', '\n', 'places lliures: ', 24, '\n', 'bicis disponibles: ', 8) ;
+var infowindow393 = new google.maps.InfoWindow({
+content: contentString393
+});
+var myLatLng393 = new google.maps.LatLng( 41.3860090 2.17021200 );
+var marker393 = new google.maps.Marker({
+position: myLatLng393 ,
+map: map,
+title:393
+});
+google.maps.event.addListener(marker393 , click, function() {
+infowindow393 .open(map, marker393 );
+}
+var contentString394 = ('Joan Mir&oacute;', ' ', '2', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 16) ;
+var infowindow394 = new google.maps.InfoWindow({
+content: contentString394
+});
+var myLatLng394 = new google.maps.LatLng( 41.3890280 2.19684400 );
+var marker394 = new google.maps.Marker({
+position: myLatLng394 ,
+map: map,
+title:394
+});
+google.maps.event.addListener(marker394 , click, function() {
+infowindow394 .open(map, marker394 );
+}
+var contentString395 = ('Av. Del Litoral', ' ', '24', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 5) ;
+var infowindow395 = new google.maps.InfoWindow({
+content: contentString395
+});
+var myLatLng395 = new google.maps.LatLng( 41.3888940 2.19933400 );
+var marker395 = new google.maps.Marker({
+position: myLatLng395 ,
+map: map,
+title:395
+});
+google.maps.event.addListener(marker395 , click, function() {
+infowindow395 .open(map, marker395 );
+}
+var contentString396 = ('Passeig Mar&iacute;tim de la Barceloneta', ' ', None, '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 12) ;
+var infowindow396 = new google.maps.InfoWindow({
+content: contentString396
+});
+var myLatLng396 = new google.maps.LatLng( 41.3810110 2.19350200 );
+var marker396 = new google.maps.Marker({
+position: myLatLng396 ,
+map: map,
+title:396
+});
+google.maps.event.addListener(marker396 , click, function() {
+infowindow396 .open(map, marker396 );
+}
+var contentString397 = ('Nova Bocana', ' ', None, '\n', 'places lliures: ', 23, '\n', 'bicis disponibles: ', 4) ;
+var infowindow397 = new google.maps.InfoWindow({
+content: contentString397
+});
+var myLatLng397 = new google.maps.LatLng( 41.3702970 2.18780800 );
+var marker397 = new google.maps.Marker({
+position: myLatLng397 ,
+map: map,
+title:397
+});
+google.maps.event.addListener(marker397 , click, function() {
+infowindow397 .open(map, marker397 );
+}
+var contentString398 = ('Pl. Antonio L&oacute;pez (Via Laietana) annexa a la 37', ' ', None, '\n', 'places lliures: ', 12, '\n', 'bicis disponibles: ', 11) ;
+var infowindow398 = new google.maps.InfoWindow({
+content: contentString398
+});
+var myLatLng398 = new google.maps.LatLng( 41.3812410 2.18183800 );
+var marker398 = new google.maps.Marker({
+position: myLatLng398 ,
+map: map,
+title:398
+});
+google.maps.event.addListener(marker398 , click, function() {
+infowindow398 .open(map, marker398 );
+}
+var infowindow399 = new google.maps.InfoWindow({
+content: contentString399
+});
+var myLatLng399 = new google.maps.LatLng( 41.3805650 2.18211900 );
+var marker399 = new google.maps.Marker({
+position: myLatLng399 ,
+map: map,
+title:399
+});
+google.maps.event.addListener(marker399 , click, function() {
+infowindow399 .open(map, marker399 );
+}
+var contentString401 = ('Comte Borrell', ' ', '198', '\n', 'places lliures: ', 4, '\n', 'bicis disponibles: ', 17) ;
+var infowindow401 = new google.maps.InfoWindow({
+content: contentString401
+});
+var myLatLng401 = new google.maps.LatLng( 41.3855100 2.15200000 );
+var marker401 = new google.maps.Marker({
+position: myLatLng401 ,
+map: map,
+title:401
+});
+google.maps.event.addListener(marker401 , click, function() {
+infowindow401 .open(map, marker401 );
+}
+var contentString402 = ('Gran Via de Les Corts Catalanes', ' ', '592', '\n', 'places lliures: ', 19, '\n', 'bicis disponibles: ', 13) ;
+var infowindow402 = new google.maps.InfoWindow({
+content: contentString402
+});
+var myLatLng402 = new google.maps.LatLng( 41.3865120 2.16459700 );
+var marker402 = new google.maps.Marker({
+position: myLatLng402 ,
+map: map,
+title:402
+});
+google.maps.event.addListener(marker402 , click, function() {
+infowindow402 .open(map, marker402 );
+}
+var contentString403 = ('Ramon Trias Fargas', ' ', '19', '\n', 'places lliures: ', 24, '\n', 'bicis disponibles: ', 3) ;
+var infowindow403 = new google.maps.InfoWindow({
+content: contentString403
+});
+var myLatLng403 = new google.maps.LatLng( 41.3884710 2.19283500 );
+var marker403 = new google.maps.Marker({
+position: myLatLng403 ,
+map: map,
+title:403
+});
+google.maps.event.addListener(marker403 , click, function() {
+infowindow403 .open(map, marker403 );
+}
+var infowindow404 = new google.maps.InfoWindow({
+content: contentString404
+});
+var myLatLng404 = new google.maps.LatLng( 41.3886090 2.19231000 );
+var marker404 = new google.maps.Marker({
+position: myLatLng404 ,
+map: map,
+title:404
+});
+google.maps.event.addListener(marker404 , click, function() {
+infowindow404 .open(map, marker404 );
+}
+var infowindow405 = new google.maps.InfoWindow({
+content: contentString405
+});
+var myLatLng405 = new google.maps.LatLng( 41.3924220 2.19241700 );
+var marker405 = new google.maps.Marker({
+position: myLatLng405 ,
+map: map,
+title:405
+});
+google.maps.event.addListener(marker405 , click, function() {
+infowindow405 .open(map, marker405 );
+}
+var contentString406 = ('Passeig de Colom, s/n', ' ', None, '\n', 'places lliures: ', 28, '\n', 'bicis disponibles: ', 5) ;
+var infowindow406 = new google.maps.InfoWindow({
+content: contentString406
+});
+var myLatLng406 = new google.maps.LatLng( 41.3764330 2.17871000 );
+var marker406 = new google.maps.Marker({
+position: myLatLng406 ,
+map: map,
+title:406
+});
+google.maps.event.addListener(marker406 , click, function() {
+infowindow406 .open(map, marker406 );
+}
+var contentString407 = ('Rambla Catalunya (Diputaci&oacute;)', ' ', '31', '\n', 'places lliures: ', 15, '\n', 'bicis disponibles: ', 10) ;
+var infowindow407 = new google.maps.InfoWindow({
+content: contentString407
+});
+var myLatLng407 = new google.maps.LatLng( 41.3894990 2.16538700 );
+var marker407 = new google.maps.Marker({
+position: myLatLng407 ,
+map: map,
+title:407
+});
+google.maps.event.addListener(marker407 , click, function() {
+infowindow407 .open(map, marker407 );
+}
+var contentString408 = ('PL. URQUINAONA', ' ', '3', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 12) ;
+var infowindow408 = new google.maps.InfoWindow({
+content: contentString408
+});
+var myLatLng408 = new google.maps.LatLng( 41.3890120 2.17266700 );
+var marker408 = new google.maps.Marker({
+position: myLatLng408 ,
+map: map,
+title:408
+});
+google.maps.event.addListener(marker408 , click, function() {
+infowindow408 .open(map, marker408 );
+}
+var contentString409 = ('Bruc', ' ', '66', '\n', 'places lliures: ', 14, '\n', 'bicis disponibles: ', 13) ;
+var infowindow409 = new google.maps.InfoWindow({
+content: contentString409
+});
+var myLatLng409 = new google.maps.LatLng( 41.3935120 2.17071800 );
+var marker409 = new google.maps.Marker({
+position: myLatLng409 ,
+map: map,
+title:409
+});
+google.maps.event.addListener(marker409 , click, function() {
+infowindow409 .open(map, marker409 );
+}
+var contentString410 = ('Casp', ' ', '67', '\n', 'places lliures: ', 8, '\n', 'bicis disponibles: ', 19) ;
+var infowindow410 = new google.maps.InfoWindow({
+content: contentString410
+});
+var myLatLng410 = new google.maps.LatLng( 41.3937440 2.17645100 );
+var marker410 = new google.maps.Marker({
+position: myLatLng410 ,
+map: map,
+title:410
+});
+google.maps.event.addListener(marker410 , click, function() {
+infowindow410 .open(map, marker410 );
+}
+var infowindow411 = new google.maps.InfoWindow({
+content: contentString411
+});
+var myLatLng411 = new google.maps.LatLng( 41.3793740 2.16892100 );
+var marker411 = new google.maps.Marker({
+position: myLatLng411 ,
+map: map,
+title:411
+});
+google.maps.event.addListener(marker411 , click, function() {
+infowindow411 .open(map, marker411 );
+}
+var infowindow412 = new google.maps.InfoWindow({
+content: contentString412
+});
+var myLatLng412 = new google.maps.LatLng( 41.3781340 2.16965000 );
+var marker412 = new google.maps.Marker({
+position: myLatLng412 ,
+map: map,
+title:412
+});
+google.maps.event.addListener(marker412 , click, function() {
+infowindow412 .open(map, marker412 );
+}
+var contentString415 = ('Gran Via', ' ', '361', '\n', 'places lliures: ', 22, '\n', 'bicis disponibles: ', 4) ;
+var infowindow415 = new google.maps.InfoWindow({
+content: contentString415
+});
+var myLatLng415 = new google.maps.LatLng( 41.3742130 2.14808200 );
+var marker415 = new google.maps.Marker({
+position: myLatLng415 ,
+map: map,
+title:415
+});
+google.maps.event.addListener(marker415 , click, function() {
+infowindow415 .open(map, marker415 );
+}
+var contentString417 = ('Carrer d&#039;Hondures', ' ', '32', '\n', 'places lliures: ', 7, '\n', 'bicis disponibles: ', 20) ;
+var infowindow417 = new google.maps.InfoWindow({
+content: contentString417
+});
+var myLatLng417 = new google.maps.LatLng( 41.4202010 2.18953200 );
+var marker417 = new google.maps.Marker({
+position: myLatLng417 ,
+map: map,
+title:417
+});
+google.maps.event.addListener(marker417 , click, function() {
+infowindow417 .open(map, marker417 );
+}
+var contentString418 = ('Passeig Mar&iacute;tim de la Barceloneta, devant del 5-7', ' ', '5', '\n', 'places lliures: ', 17, '\n', 'bicis disponibles: ', 7) ;
+var infowindow418 = new google.maps.InfoWindow({
+content: contentString418
+});
+var myLatLng418 = new google.maps.LatLng( 41.3796320 2.19266200 );
+var marker418 = new google.maps.Marker({
+position: myLatLng418 ,
+map: map,
+title:418
+});
+google.maps.event.addListener(marker418 , click, function() {
+infowindow418 .open(map, marker418 );
+}
+var contentString419 = ('Carrer de Cervell&oacute;', ' ', '5', '\n', 'places lliures: ', 20, '\n', 'bicis disponibles: ', 7) ;
+var infowindow419 = new google.maps.InfoWindow({
+content: contentString419
+});
+var myLatLng419 = new google.maps.LatLng( 41.3765200 2.17490000 );
+var marker419 = new google.maps.Marker({
+position: myLatLng419 ,
+map: map,
+title:419
+});
+google.maps.event.addListener(marker419 , click, function() {
+infowindow419 .open(map, marker419 );
+}
+var contentString420 = ('Carrer de Ribes', ' ', '59', '\n', 'places lliures: ', 6, '\n', 'bicis disponibles: ', 23) ;
+var infowindow420 = new google.maps.InfoWindow({
+content: contentString420
+});
+var myLatLng420 = new google.maps.LatLng( 41.3983050 2.18302300 );
+var marker420 = new google.maps.Marker({
+position: myLatLng420 ,
+map: map,
+title:420
+});
+google.maps.event.addListener(marker420 , click, function() {
+infowindow420 .open(map, marker420 );
+}
+var infowindow421 = new google.maps.InfoWindow({
+content: contentString421
+});
+var myLatLng421 = new google.maps.LatLng( 41.3753360 2.16800700 );
+var marker421 = new google.maps.Marker({
+position: myLatLng421 ,
+map: map,
+title:421
+});
+google.maps.event.addListener(marker421 , click, function() {
+infowindow421 .open(map, marker421 );
+}
+var infowindow424 = new google.maps.InfoWindow({
+content: contentString424
+});
+var myLatLng424 = new google.maps.LatLng( 41.4044180 2.19037900 );
+var marker424 = new google.maps.Marker({
+position: myLatLng424 ,
+map: map,
+title:424
+});
+google.maps.event.addListener(marker424 , click, function() {
+infowindow424 .open(map, marker424 );
+}
+google.maps.event.addDomListener(window, load, initialize);
+   </script> </head>
+<body>
+<div id="map-canvas"></div>
+</body>
