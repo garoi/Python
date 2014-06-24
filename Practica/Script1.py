@@ -6,7 +6,8 @@ from HTMLParser import HTMLParser
 
 allrest=[]
 
-class restaurant:
+
+class restaurant(object):
     nom = ""
     adreca = ""
     districte = ""
@@ -23,7 +24,6 @@ class restaurant:
             self.nom = nom
         else:
             self.nom = self.nom + '&' + nom
-            # self.nom = nom
 
     def afegir_adreca(self, adreca):
         if adreca.find('C') == 0:
@@ -112,6 +112,7 @@ class MHTMLParser(HTMLParser):
             self.crest.afegir_longitud(data)
 
 
+
 f = open('restaurants.rdf', 'rb') # obre l'arxiu
 rdfSource = f.read()
 f.close()
@@ -125,5 +126,5 @@ parser.feed(rdfSource)
 csvSource.writerow(["Nom"] + ["Adreça"] + ["Districte"] + ["Barri"] + ["Codi Postal"] + ["Telèfon"] +
 ["Telèfon 2"] + ["Latitud"] + ["Longitud"] + ["Web"])
 for r in allrest:
-    csvSource.writerow([r.nom] + [r.adreca] + [r.districte] + [r.barri] + [r.postal] + [r.telefon] + [r.telefon2] + [r.latitud] + [r.longitud] + [r.web])
-
+    csvSource.writerow([r.nom] + [r.adreca] + [r.districte] + [r.barri] + [r.postal] + [r.telefon] +
+    [r.telefon2] + [r.latitud] + [r.longitud] + [r.web])
